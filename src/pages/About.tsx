@@ -13,75 +13,75 @@ const About = () => {
               {/* Main Heading */}
               <div className="text-center mb-8 md:mb-12">
                 <h1 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-heading font-bold text-primary mb-4">
-                  About Serene Minds Wellness
+                  About WillMind Mental Health
                 </h1>
                 <p className="text-base sm:text-lg md:text-xl font-semibold text-primary leading-relaxed">
-                  Faith, Balance, and Healing — Integrated Psychiatry for Women, Teens, and Adults
+                  Compassionate, Evidence-Based Psychiatric Care
                 </p>
               </div>
 
               {/* Introduction */}
               <div className="space-y-4">
                 <p className="text-xs sm:text-sm md:text-base lg:text-lg">
-                  At Serene Minds Wellness, we believe true healing begins when the mind, body, and spirit are in harmony.
+                  At WillMind Mental Health, I provide compassionate, evidence-based psychiatric care with a warm and patient-centered approach. I am dedicated to helping adults feel emotionally supported, understood, and empowered.
                 </p>
                 <p className="text-xs sm:text-sm md:text-base lg:text-lg">
-                  We provide integrated, holistic, and faith-informed psychiatric care for women, adolescent girls, and adults seeking clarity, emotional stability, and renewed balance. Whether you're navigating anxiety, depression, ADHD, trauma, burnout, hormonal mood changes, or major life stressors, our care is designed to help you reconnect with peace, strength, and purpose.
+                  Whether you're navigating anxiety, depression, ADHD, trauma, PTSD, maternal mental health concerns, or other psychiatric conditions, my care is designed to help you achieve lasting emotional wellness and reclaim your peace of mind.
                 </p>
               </div>
 
               {/* Who We Are */}
               <div className="border-t pt-6 md:pt-8">
-                <h2 className="text-xl sm:text-2xl md:text-3xl font-heading font-bold text-primary mb-4 md:mb-6">Who We Are</h2>
+                <h2 className="text-xl sm:text-2xl md:text-3xl font-heading font-bold text-primary mb-4 md:mb-6">Meet Tayo Maduagwu, MSN, APRN, PMHNP-BC</h2>
                 <div className="space-y-4">
                   <p className="text-xs sm:text-sm md:text-base lg:text-lg">
-                    Serene Minds Wellness was founded by Patience Amune, APRN, PMHNP-BC, a board-certified psychiatric mental health nurse practitioner dedicated to whole-person healing.
+                    I am a Board-Certified Psychiatric Mental Health Nurse Practitioner with a Master's degree in Nursing. With advanced training in psychiatric evaluation, medication management, and psychotherapy, I provide comprehensive mental health care that addresses the whole person.
                   </p>
                   <p className="text-xs sm:text-sm md:text-base lg:text-lg">
-                    Patience blends psychiatric expertise, supportive therapy, lifestyle guidance, medication management, and faith-informed care to provide personalized, evidence-based treatment that honors each person's individual needs.
+                    My approach blends psychiatric expertise, supportive therapy, evidence-based treatment modalities, and a genuine commitment to understanding your unique needs and goals. I believe in meeting clients exactly where they are and working together as partners in care.
                   </p>
                   <p className="text-xs sm:text-sm md:text-base lg:text-lg">
-                    We serve clients across Florida through telehealth, and offer in-person care in Sanford, FL.
+                    I provide comprehensive virtual psychiatric services to adults in Texas through secure telehealth appointments.
                   </p>
                 </div>
               </div>
 
               {/* Our Mission */}
               <div className="border-t pt-6 md:pt-8">
-                <h2 className="text-xl sm:text-2xl md:text-3xl font-heading font-bold text-primary mb-4 md:mb-6">Our Mission</h2>
+                <h2 className="text-xl sm:text-2xl md:text-3xl font-heading font-bold text-primary mb-4 md:mb-6">My Mission</h2>
                 <p className="text-xs sm:text-sm md:text-base lg:text-lg">
-                  To provide integrated, compassionate, and evidence-based psychiatric care that empowers women, teens, and adults to heal, grow, and rediscover peace through the alignment of mind, body, and spirit.
+                  To provide compassionate, evidence-based psychiatric care that helps adults feel emotionally supported, understood, and empowered. I am committed to creating a warm, collaborative relationship where you feel heard and respected throughout your healing journey.
                 </p>
               </div>
 
               {/* Our Vision */}
               <div className="border-t pt-6 md:pt-8">
-                <h2 className="text-xl sm:text-2xl md:text-3xl font-heading font-bold text-primary mb-4 md:mb-6">Our Vision</h2>
+                <h2 className="text-xl sm:text-2xl md:text-3xl font-heading font-bold text-primary mb-4 md:mb-6">My Vision</h2>
                 <p className="text-xs sm:text-sm md:text-base lg:text-lg">
-                  To be a trusted leader in faith-informed and integrative mental health care, where each individual feels seen beyond a diagnosis and supported in their personal journey toward emotional stability and spiritual well-being.
+                  To be a trusted psychiatric partner who empowers adults to achieve lasting emotional wellness and mental clarity. I envision a practice where every client feels truly seen, valued, and supported in achieving their unique path to recovery and well-being.
                 </p>
               </div>
 
               {/* Our Philosophy */}
               <div className="border-t pt-6 md:pt-8">
-                <h2 className="text-xl sm:text-2xl md:text-3xl font-heading font-bold text-primary mb-4 md:mb-6">Our Philosophy</h2>
+                <h2 className="text-xl sm:text-2xl md:text-3xl font-heading font-bold text-primary mb-4 md:mb-6">My Philosophy</h2>
                 <p className="text-xs sm:text-sm md:text-base lg:text-lg">
-                  We believe mental wellness is more than the absence of illness—it is the presence of balance, clarity, purpose, and inner peace. True healing happens when we treat the whole person, honoring the connection between biology, emotions, lived experiences, and faith. Our model blends modern psychiatric care with holistic principles to create a space for genuine restoration and transformation.
+                  I believe mental wellness is more than the absence of illness—it is the presence of clarity, resilience, purpose, and peace. True healing happens when we address the biological, psychological, and social factors that shape your mental health. I blend evidence-based psychiatric medicine with a supportive, empathetic approach to help you achieve lasting wellness and feel truly understood.
                 </p>
               </div>
 
               {/* Our Approach */}
               <div className="border-t pt-6 md:pt-8">
-                <h2 className="text-xl sm:text-2xl md:text-3xl font-heading font-bold text-primary mb-4 md:mb-6">Our Approach</h2>
+                <h2 className="text-xl sm:text-2xl md:text-3xl font-heading font-bold text-primary mb-4 md:mb-6">My Approach to Care</h2>
                 <div className="space-y-4 md:space-y-6">
                   <p className="text-xs sm:text-sm md:text-base lg:text-lg">
                     Our approach is integrated, collaborative, and patient-centered. We look beyond symptoms to understand the biological, psychological, environmental, and spiritual factors that shape your mental health. You will always be treated as a whole person—not a diagnosis.
                   </p>
 
                   <div className="bg-blue-50 border-l-4 border-primary p-3 sm:p-4 md:p-5 lg:p-6 rounded">
-                    <h3 className="text-base sm:text-lg font-semibold text-primary mb-2 sm:mb-3">Integrated Care Philosophy</h3>
+                    <h3 className="text-base sm:text-lg font-semibold text-primary mb-2 sm:mb-3">Holistic, Patient-Centered Care</h3>
                     <p className="text-xs sm:text-sm md:text-base lg:text-lg">
-                      We believe that true healing addresses the whole person. Mental health isn't just about brain chemistry—it's about your beliefs, values, relationships, sleep, nutrition, physical activity, and spiritual well-being. Our integrated approach combines psychiatric expertise with holistic healing to address all dimensions of your wellbeing.
+                      I believe that true healing addresses the whole person. Mental health isn't just about brain chemistry—it's about your unique story, your goals, your coping abilities, and what wellness means to you. My approach combines psychiatric expertise with a warm, empathetic understanding of your individual needs and circumstances.
                     </p>
                   </div>
 
@@ -93,9 +93,9 @@ const About = () => {
                   </div>
 
                   <div className="bg-blue-50 border-l-4 border-primary p-3 sm:p-4 md:p-5 lg:p-6 rounded">
-                    <h3 className="text-base sm:text-lg font-semibold text-primary mb-2 sm:mb-3">Faith-Informed Care</h3>
+                    <h3 className="text-base sm:text-lg font-semibold text-primary mb-2 sm:mb-3">Collaborative Partnership</h3>
                     <p className="text-xs sm:text-sm md:text-base lg:text-lg">
-                      For many people, faith and spirituality are central to their identity and healing journey. We honor and integrate faith-based perspectives into treatment, whether through prayer, spiritual practices, values clarification, or connecting you with spiritual resources. Your beliefs are respected and incorporated into your care plan.
+                      You are never "rushed" or treated as just a diagnosis. I take time to truly listen and understand your experiences, your goals, and what you hope to improve. Together, we work as partners in your care, exploring your symptoms and building a treatment plan that feels right for you.
                     </p>
                   </div>
 
@@ -138,26 +138,34 @@ const About = () => {
                   </div>
 
                   <div className="border-t pt-4 md:pt-6">
-                    <h3 className="text-base sm:text-lg font-semibold text-primary mb-3">Who We Serve</h3>
+                    <h3 className="text-base sm:text-lg font-semibold text-primary mb-3">Who I Work With</h3>
                     <p className="text-xs sm:text-sm md:text-base lg:text-lg mb-3">
-                      We serve a diverse population including:
+                      I work with adults navigating:
                     </p>
                     <ul className="space-y-2 text-xs sm:text-sm md:text-base lg:text-lg">
                       <li className="flex items-start">
                         <span className="mr-3 text-primary font-bold flex-shrink-0">•</span>
-                        <span>Women navigating hormonal mood changes, reproductive psychiatry, and life transitions</span>
+                        <span>Anxiety, panic disorder, and stress management</span>
                       </li>
                       <li className="flex items-start">
                         <span className="mr-3 text-primary font-bold flex-shrink-0">•</span>
-                        <span>Adolescent girls and young women with depression, anxiety, and identity questions</span>
+                        <span>Depression and mood disorders</span>
                       </li>
                       <li className="flex items-start">
                         <span className="mr-3 text-primary font-bold flex-shrink-0">•</span>
-                        <span>Adults seeking clarity, emotional stability, and renewed purpose</span>
+                        <span>ADHD/ADD and focus concerns</span>
                       </li>
                       <li className="flex items-start">
                         <span className="mr-3 text-primary font-bold flex-shrink-0">•</span>
-                        <span>Individuals facing burnout, trauma, ADHD, anxiety, depression, and other psychiatric conditions</span>
+                        <span>Trauma, PTSD, and emotional recovery</span>
+                      </li>
+                      <li className="flex items-start">
+                        <span className="mr-3 text-primary font-bold flex-shrink-0">•</span>
+                        <span>Maternal mental health and postpartum mood concerns</span>
+                      </li>
+                      <li className="flex items-start">
+                        <span className="mr-3 text-primary font-bold flex-shrink-0">•</span>
+                        <span>Bipolar disorder and sleep disorders</span>
                       </li>
                     </ul>
                   </div>
@@ -165,17 +173,17 @@ const About = () => {
                   <div className="border-t pt-4 md:pt-6">
                     <h3 className="text-base sm:text-lg font-semibold text-primary mb-3">Access to Care</h3>
                     <p className="text-xs sm:text-sm md:text-base lg:text-lg mb-4">
-                      We believe mental health care should be accessible to everyone. We serve clients across Florida through secure telehealth, making it easy to access care from the comfort of your home. We also offer in-person appointments in Sanford, FL for those who prefer face-to-face interactions. Most insurance plans are accepted, and we're happy to verify coverage and work with you on payment options.
+                      I believe mental health care should be accessible to everyone. I serve adults in Texas through secure telehealth, making it easy to access care from the comfort of your home. I accept most major insurance plans and also offer sliding scale and cash-pay options. Let's verify your coverage and find a payment plan that works for you.
                     </p>
                     <p className="text-xs sm:text-sm md:text-base lg:text-lg font-semibold text-primary">
-                      We offer telehealth throughout Florida and in-person sessions in Sanford, FL.
+                      I offer virtual telehealth appointments throughout Texas.
                     </p>
                   </div>
 
                   <div className="border-t pt-4 md:pt-6">
-                    <h3 className="text-base sm:text-lg font-semibold text-primary mb-3">Take the First Step Toward Healing</h3>
+                    <h3 className="text-base sm:text-lg font-semibold text-primary mb-3">Ready to Start Your Healing Journey?</h3>
                     <p className="text-xs sm:text-sm md:text-base lg:text-lg">
-                      Whether you're seeking calm, clarity, emotional resilience, spiritual grounding, or a compassionate provider who truly listens, Serene Minds Wellness is here to help you restore balance and live with renewed purpose.
+                      Whether you're seeking relief from anxiety, clarity around depression, support with ADHD, help processing trauma, or simply a compassionate provider who truly listens, I'm here to support you. Book your first session today and take the first step toward feeling emotionally supported, understood, and empowered.
                     </p>
                   </div>
                 </div>
