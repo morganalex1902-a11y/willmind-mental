@@ -597,13 +597,51 @@ const Index = () => {
             </p>
           </div>
 
-          <div className="flex flex-col sm:flex-row gap-6 md:gap-8 items-center justify-center max-w-2xl mx-auto">
+          <div className="flex flex-col sm:flex-row gap-6 md:gap-8 items-center justify-center flex-wrap max-w-4xl mx-auto">
+            {/* Headway Badge */}
+            <a
+              href="https://care.headway.co/providers/tayo-maduagwu"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="flex-1 w-full sm:w-auto min-w-[200px]"
+            >
+              <div className="group bg-white border-2 border-primary/20 rounded-lg p-6 md:p-8 hover:border-primary hover:shadow-lg transition-all duration-300 cursor-pointer flex flex-col items-center justify-center h-full">
+                <img
+                  src="https://cdn.builder.io/api/v1/image/assets%2F8b84be17aad14310b285d25f23a3235d%2F4fb55f8110e84fdaaad090027a2fab5e?format=webp&width=800"
+                  alt="Headway - Virtual therapy"
+                  className="h-12 md:h-14 object-contain mb-3 group-hover:scale-110 transition-transform duration-300"
+                />
+                <span className="text-xs md:text-sm font-semibold text-primary text-center">
+                  View on Headway
+                </span>
+              </div>
+            </a>
+
+            {/* Psychology Today Badge */}
+            <a
+              href="https://www.psychologytoday.com/us/psychiatrists/tayo-maduagwu-austin-tx/1672960"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="flex-1 w-full sm:w-auto min-w-[200px]"
+            >
+              <div className="group bg-white border-2 border-primary/20 rounded-lg p-6 md:p-8 hover:border-primary hover:shadow-lg transition-all duration-300 cursor-pointer flex flex-col items-center justify-center h-full">
+                <img
+                  src="https://cdn.builder.io/api/v1/image/assets%2F8b84be17aad14310b285d25f23a3235d%2F824ece0ca16e4f77a707822e94b28dd9?format=webp&width=800"
+                  alt="Psychology Today - Find a therapist"
+                  className="h-12 md:h-14 object-contain mb-3 group-hover:scale-110 transition-transform duration-300"
+                />
+                <span className="text-xs md:text-sm font-semibold text-primary text-center">
+                  View on Psychology Today
+                </span>
+              </div>
+            </a>
+
             {/* Grow Therapy Badge */}
             <a
               href="https://growtherapy.com/book-appointment?prsid=6nwhh2q28y21&ref=grow&setting=Virtual"
               target="_blank"
               rel="noopener noreferrer"
-              className="flex-1 w-full sm:w-auto"
+              className="flex-1 w-full sm:w-auto min-w-[200px]"
             >
               <div className="group bg-white border-2 border-primary/20 rounded-lg p-6 md:p-8 hover:border-primary hover:shadow-lg transition-all duration-300 cursor-pointer flex flex-col items-center justify-center h-full">
                 <img
@@ -622,7 +660,7 @@ const Index = () => {
               href="https://www.rula.com/providers/FL/1437908365"
               target="_blank"
               rel="noopener noreferrer"
-              className="flex-1 w-full sm:w-auto"
+              className="flex-1 w-full sm:w-auto min-w-[200px]"
             >
               <div className="group bg-white border-2 border-primary/20 rounded-lg p-6 md:p-8 hover:border-primary hover:shadow-lg transition-all duration-300 cursor-pointer flex flex-col items-center justify-center h-full">
                 <img
