@@ -562,11 +562,9 @@ const Index = () => {
                   <div>
                     <h3 className="font-heading font-semibold text-lg md:text-xl mb-4">WillMind Mental Health</h3>
                     <div className="space-y-3 text-xs sm:text-sm md:text-base text-muted-foreground">
-                      <p><strong>Based in:</strong></p>
-                      <p>Austin, Texas<br /></p>
                       <p><strong>Service Area:</strong></p>
-                      <p className="font-semibold text-primary">Virtual Care Throughout Texas</p>
-                      <p className="text-xs italic">Serving patients across all of Texas via secure telehealth</p>
+                      <p className="font-semibold text-primary">Serving All of Texas</p>
+                      <p className="text-xs italic">Comprehensive virtual psychiatric care throughout Texas via secure telehealth</p>
                       <p className="pt-2">
                         <strong>Phone:</strong> <a href="tel:5125991462" className="hover:text-primary transition-colors">(512) 599-1462</a>
                       </p>
