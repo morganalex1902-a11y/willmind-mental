@@ -39,7 +39,7 @@ const Index = () => {
     {
       icon: Brain,
       title: "Anxiety",
-      image: "https://images.unsplash.com/photo-1494253109108-2e30c049369b?w=400&h=300&fit=crop",
+      image: "https://images.unsplash.com/photo-1532286682806-34f3a5ff4302?w=400&h=300&fit=crop",
       description: "Anxiety disorders affect millions of people and can significantly impact daily life. Our comprehensive anxiety treatment includes cognitive-behavioral therapy (CBT), medication management, and evidence-based interventions to help you manage symptoms and regain control.",
       details: [
         "Generalized Anxiety Disorder (GAD)",
@@ -53,7 +53,7 @@ const Index = () => {
     {
       icon: Heart,
       title: "Depression",
-      image: "https://images.unsplash.com/photo-1488521787991-ed7bbaae773c?w=400&h=300&fit=crop",
+      image: "https://images.unsplash.com/photo-1544716278-ca5e3af4abd8?w=400&h=300&fit=crop",
       description: "Depression is a serious medical condition that requires professional treatment. We provide compassionate, evidence-based care including therapy, medication management, and support to help you find hope and restore joy to your life.",
       details: [
         "Major Depressive Disorder",
@@ -67,7 +67,7 @@ const Index = () => {
     {
       icon: Users,
       title: "Phobias",
-      image: "https://images.unsplash.com/photo-1516302752625-fcc3c50ae61f?w=400&h=300&fit=crop",
+      image: "https://images.unsplash.com/photo-1517694712202-14dd9538aa97?w=400&h=300&fit=crop",
       description: "Phobias are intense, irrational fears that can limit your life. Our specialized treatment uses exposure therapy, behavioral techniques, and medication when appropriate to help you overcome your fears and live freely.",
       details: [
         "Specific Phobias assessment and treatment",
@@ -81,7 +81,7 @@ const Index = () => {
     {
       icon: ShieldCheck,
       title: "PTSD",
-      image: "https://images.unsplash.com/photo-1528459801416-a9e53bbf4e17?w=400&h=300&fit=crop",
+      image: "https://images.unsplash.com/photo-1511737804438-1c67112a2105?w=400&h=300&fit=crop",
       description: "Post-Traumatic Stress Disorder (PTSD) can develop after experiencing or witnessing traumatic events. We offer trauma-informed care including evidence-based therapies like EMDR and CPT, combined with medication management when needed.",
       details: [
         "Trauma-informed care approach",
@@ -95,7 +95,7 @@ const Index = () => {
     {
       icon: Stethoscope,
       title: "OCD",
-      image: "https://images.unsplash.com/photo-1559757175-5700dde675bc?w=400&h=300&fit=crop",
+      image: "https://images.unsplash.com/photo-1516307365135-cf6e06f49e38?w=400&h=300&fit=crop",
       description: "Obsessive-Compulsive Disorder involves intrusive thoughts and repetitive behaviors. Our specialized OCD treatment includes Exposure and Response Prevention (ERP) therapy and medication management to help break the OCD cycle.",
       details: [
         "Comprehensive OCD assessment",
@@ -109,7 +109,7 @@ const Index = () => {
     {
       icon: Lightbulb,
       title: "ADHD/ADD",
-      image: "https://images.unsplash.com/photo-1527689368864-3a821dbccc34?w=400&h=300&fit=crop",
+      image: "https://images.unsplash.com/photo-1517694712202-14dd9538aa97?w=400&h=300&fit=crop",
       description: "ADHD/ADD can impact focus, organization, and relationships. We provide comprehensive evaluation and treatment including medication management, behavioral strategies, and coaching to help you reach your potential.",
       details: [
         "Adult ADHD evaluation and diagnosis",
