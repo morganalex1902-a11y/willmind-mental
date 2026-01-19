@@ -283,9 +283,9 @@ const Index = () => {
             <div className="space-y-4 md:space-y-6">
               <div className="relative w-full flex items-center justify-center rounded-lg overflow-hidden min-h-[300px] sm:min-h-[350px] md:min-h-[400px]">
                 <img
-                  src="https://cdn.builder.io/api/v1/image/assets%2F8c5319227ec44fd9bdef2d63efcb9acb%2F0854667eb6364130ac305c6e07c7cade?format=webp&width=1200&quality=95"
+                  src="https://cdn.builder.io/api/v1/image/assets%2F7f3a261a364e4e158e176b65dc7b168f%2F04179bbac5f04c9f827ca51eeb45308a?format=webp&width=800"
                   alt="Tayo Maduagwu, PMHNP-BC"
-                  className="w-full h-full object-cover rounded-lg filter brightness-105 contrast-110"
+                  className="w-full h-full object-cover rounded-lg"
                 />
               </div>
               <div className="bg-blue-50 border-l-4 border-primary p-4 sm:p-5 md:p-6 rounded">
