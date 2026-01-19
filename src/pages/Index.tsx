@@ -292,6 +292,13 @@ const Index = () => {
                 <p className="text-xs sm:text-sm md:text-base text-muted-foreground leading-relaxed">
                   A board-certified Psychiatric Mental Health Nurse Practitioner dedicated to helping adults feel emotionally supported, understood, and empowered. Tayo provides compassionate, evidence-based mental health care with a warm and patient-centered approach. With a holistic perspective, Tayo blends medication management with supportive therapy to help you achieve lasting wellness.
                 </p>
+                <div className="mt-4">
+                  <Link to="/team">
+                    <Button className="bg-primary hover:bg-primary/90 text-primary-foreground text-sm sm:text-base">
+                      Learn More →
+                    </Button>
+                  </Link>
+                </div>
               </div>
             </div>
           </div>
