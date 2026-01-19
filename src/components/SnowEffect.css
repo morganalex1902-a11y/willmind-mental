@@ -16,10 +16,11 @@
   height: var(--size, 3px);
   background: white;
   border-radius: 50%;
-  box-shadow: 0 0 8px rgba(255, 255, 255, 0.6);
+  box-shadow: 0 0 12px rgba(255, 255, 255, 0.8), 0 0 24px rgba(255, 255, 255, 0.4);
   animation: snowfall var(--duration, 15s) linear infinite,
     sway calc(var(--duration, 15s) * 0.4) ease-in-out infinite;
   will-change: transform;
+  filter: drop-shadow(0 0 4px rgba(255, 255, 255, 0.6));
 }
 
 @keyframes snowfall {
