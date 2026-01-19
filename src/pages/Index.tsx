@@ -242,44 +242,35 @@ const Index = () => {
 
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-6 md:gap-8 max-w-6xl mx-auto mb-12 md:mb-16 items-start lg:items-center">
             <div className="space-y-0">
-              <Card className="rounded-none border-0 bg-[#71BEC2] text-left hover:shadow-none transition-shadow">
+              <Card className="rounded-none border-0 bg-primary text-left hover:shadow-none transition-shadow">
                 <CardContent className="p-4 sm:p-6 md:p-8">
-                  <div className="flex items-start gap-3">
-                    <img src="https://cdn.builder.io/api/v1/image/assets%2F7f3a261a364e4e158e176b65dc7b168f%2Fec749a71b7d8459c8317140f64e85c26?format=webp&width=800" alt="Comprehensive Psychiatric Evaluation" className="w-7 h-7 sm:w-8 sm:h-8 text-white flex-shrink-0 mt-1" />
-                    <div>
-                      <h3 className="font-heading font-semibold text-lg sm:text-xl mb-2 sm:mb-3 text-white">Comprehensive Psychiatric Evaluation</h3>
-                      <p className="text-sm sm:text-base text-white leading-relaxed">
-                        Thorough assessments to understand the biological, psychological, environmental, and spiritual factors shaping your mental health. We develop personalized treatment plans tailored to your unique needs and values.
-                      </p>
-                    </div>
+                  <div>
+                    <h3 className="font-heading font-semibold text-lg sm:text-xl mb-2 sm:mb-3 text-white">Comprehensive Psychiatric Evaluation</h3>
+                    <p className="text-sm sm:text-base text-white leading-relaxed">
+                      Thorough assessments to understand the biological, psychological, environmental, and spiritual factors shaping your mental health. We develop personalized treatment plans tailored to your unique needs and values.
+                    </p>
                   </div>
                 </CardContent>
               </Card>
 
-              <Card className="rounded-none border-0 bg-[#71BEC2] text-left hover:shadow-none transition-shadow">
+              <Card className="rounded-none border-0 bg-primary text-left hover:shadow-none transition-shadow">
                 <CardContent className="p-4 sm:p-6 md:p-8">
-                  <div className="flex items-start gap-3">
-                    <img src="https://cdn.builder.io/api/v1/image/assets%2F7f3a261a364e4e158e176b65dc7b168f%2Fa45482b93538450eb801ef94ae9ba95b?format=webp&width=800" alt="Medication Management" className="w-7 h-7 sm:w-8 sm:h-8 text-white flex-shrink-0 mt-1" />
-                    <div>
-                      <h3 className="font-heading font-semibold text-lg sm:text-xl mb-2 sm:mb-3 text-white">Medication Management</h3>
-                      <p className="text-sm sm:text-base text-white leading-relaxed">
-                        Expert psychiatric medication management with close follow-up and education. We optimize medications for your specific condition while monitoring for side effects and ensuring the best possible outcomes.
-                      </p>
-                    </div>
+                  <div>
+                    <h3 className="font-heading font-semibold text-lg sm:text-xl mb-2 sm:mb-3 text-white">Medication Management</h3>
+                    <p className="text-sm sm:text-base text-white leading-relaxed">
+                      Expert psychiatric medication management with close follow-up and education. We optimize medications for your specific condition while monitoring for side effects and ensuring the best possible outcomes.
+                    </p>
                   </div>
                 </CardContent>
               </Card>
 
-              <Card className="rounded-none border-0 bg-[#71BEC2] text-left hover:shadow-none transition-shadow">
+              <Card className="rounded-none border-0 bg-primary text-left hover:shadow-none transition-shadow">
                 <CardContent className="p-4 sm:p-6 md:p-8">
-                  <div className="flex items-start gap-3">
-                    <img src="https://cdn.builder.io/api/v1/image/assets%2F7f3a261a364e4e158e176b65dc7b168f%2F78f4f8b597954100b31110cb5fb8db39?format=webp&width=800" alt="Integrated Care" className="w-7 h-7 sm:w-8 sm:h-8 text-white flex-shrink-0 mt-1" />
-                    <div>
-                      <h3 className="font-heading font-semibold text-lg sm:text-xl mb-2 sm:mb-3 text-white">Faith-Informed Integrated Care</h3>
-                      <p className="text-sm sm:text-base text-white leading-relaxed">
-                        Collaboration with therapists, medical providers, OB-GYNs, specialists, families, and support teams. We also integrate faith-based and lifestyle-based interventions including sleep optimization, nutrition, mindfulness, and stress support for whole-person healing.
-                      </p>
-                    </div>
+                  <div>
+                    <h3 className="font-heading font-semibold text-lg sm:text-xl mb-2 sm:mb-3 text-white">Faith-Informed Integrated Care</h3>
+                    <p className="text-sm sm:text-base text-white leading-relaxed">
+                      Collaboration with therapists, medical providers, OB-GYNs, specialists, families, and support teams. We also integrate faith-based and lifestyle-based interventions including sleep optimization, nutrition, mindfulness, and stress support for whole-person healing.
+                    </p>
                   </div>
                 </CardContent>
               </Card>
@@ -308,7 +299,7 @@ const Index = () => {
       <section className="py-12 md:py-16 lg:py-20 bg-white/95 flex justify-center">
         <div className="w-full max-w-[1200px] px-4 md:px-6 lg:px-8">
           <div className="mb-8 md:mb-12 text-center">
-            <h2 className="text-2xl sm:text-3xl md:text-4xl font-heading font-bold text-center mb-4 text-white bg-[#609da0] py-4 sm:py-5 md:py-6 rounded-lg">
+            <h2 className="text-2xl sm:text-3xl md:text-4xl font-heading font-bold text-center mb-4 text-white bg-primary py-4 sm:py-5 md:py-6 rounded-lg">
               Our Services
             </h2>
             <p className="text-xs sm:text-sm md:text-base lg:text-lg text-muted-foreground max-w-3xl mx-auto mt-4 leading-relaxed">
@@ -322,17 +313,9 @@ const Index = () => {
                   <img
                     src={service.image}
                     alt={service.title}
-                    className="w-full h-full object-cover group-hover:blur-sm transition-all duration-300"
+                    className="w-full h-full object-cover transition-all duration-300"
                   />
-                  <div className="absolute inset-0 bg-primary/40 group-hover:bg-primary/60 transition-colors duration-300" />
-                  <div className="absolute inset-0 flex items-center justify-center group-hover:opacity-0 transition-opacity duration-300">
-                    <service.icon className="w-8 sm:w-10 md:w-12 h-8 sm:h-10 md:h-12 text-white" />
-                  </div>
-                  <div className="absolute inset-0 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300">
-                    <Button size="sm" className="bg-white text-primary hover:bg-white/90 text-xs sm:text-sm">
-                      Learn More
-                    </Button>
-                  </div>
+                  <div className="absolute inset-0 bg-primary/40 transition-colors duration-300" />
                 </div>
                 <CardContent className="p-3 sm:p-4 text-center">
                   <h3 className="font-heading font-semibold text-sm sm:text-base group-hover:text-primary transition-all line-clamp-2">{service.title}</h3>
