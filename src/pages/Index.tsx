@@ -12,9 +12,6 @@ import {
 import { Link, useNavigate } from "react-router-dom";
 import heroImage from "@/assets/hero-family.jpg";
 import missionImage from "@/assets/mission-hands.jpg";
-import carousel1 from "@/assets/hero-carousel-1.jpg";
-import carousel2 from "@/assets/hero-carousel-2.jpg";
-import carousel3 from "@/assets/hero-carousel-3.jpg";
 import { Users, Heart, Brain, ShieldCheck, Stethoscope, Lightbulb, X } from "lucide-react";
 import useEmblaCarousel from 'embla-carousel-react';
 import { useEffect, useState } from 'react';
