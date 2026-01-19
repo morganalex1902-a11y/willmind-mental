@@ -65,8 +65,8 @@ const Team = () => {
               ))}
             </div>
 
-            <section className="bg-[#71BEC2] rounded-lg p-4 sm:p-6 md:p-8 mb-12 md:mb-16">
-              <h2 className="text-xl sm:text-2xl font-heading font-bold text-white mb-4 md:mb-6">Our Values</h2>
+            <section className="bg-primary rounded-lg p-4 sm:p-6 md:p-8 mb-12 md:mb-16">
+              <h2 className="text-xl sm:text-2xl font-heading font-bold text-white mb-4 md:mb-6">What You Can Expect From Me</h2>
               <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 md:gap-6">
                 <div>
                   <h3 className="font-semibold text-white mb-2 sm:mb-3 text-base sm:text-lg">Compassionate Care</h3>
