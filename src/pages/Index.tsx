@@ -597,7 +597,7 @@ const Index = () => {
             </p>
           </div>
 
-          <div className="flex flex-col sm:flex-row gap-6 md:gap-8 items-center justify-center flex-wrap max-w-4xl mx-auto">
+          <div className="flex flex-col sm:flex-row gap-6 md:gap-8 items-center justify-center flex-wrap max-w-3xl mx-auto">
             {/* Headway Badge */}
             <a
               href="https://care.headway.co/providers/tayo-maduagwu"
@@ -632,44 +632,6 @@ const Index = () => {
                 />
                 <span className="text-xs md:text-sm font-semibold text-primary text-center">
                   View on Psychology Today
-                </span>
-              </div>
-            </a>
-
-            {/* Grow Therapy Badge */}
-            <a
-              href="https://growtherapy.com/book-appointment?prsid=6nwhh2q28y21&ref=grow&setting=Virtual"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="flex-1 w-full sm:w-auto min-w-[200px]"
-            >
-              <div className="group bg-white border-2 border-primary/20 rounded-lg p-6 md:p-8 hover:border-primary hover:shadow-lg transition-all duration-300 cursor-pointer flex flex-col items-center justify-center h-full">
-                <img
-                  src="https://cdn.builder.io/api/v1/image/assets%2Fdf7e75028bff4b959bd5bdef48ded5a3%2F1e4cf4b9b50a4bdbac57f0e5b04f57b8?format=webp&width=800"
-                  alt="GrowTherapy - Book Appointment"
-                  className="h-12 md:h-14 object-contain mb-3 group-hover:scale-110 transition-transform duration-300"
-                />
-                <span className="text-xs md:text-sm font-semibold text-primary text-center">
-                  Book on GrowTherapy
-                </span>
-              </div>
-            </a>
-
-            {/* Rula Badge */}
-            <a
-              href="https://www.rula.com/providers/FL/1437908365"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="flex-1 w-full sm:w-auto min-w-[200px]"
-            >
-              <div className="group bg-white border-2 border-primary/20 rounded-lg p-6 md:p-8 hover:border-primary hover:shadow-lg transition-all duration-300 cursor-pointer flex flex-col items-center justify-center h-full">
-                <img
-                  src="https://cdn.builder.io/api/v1/image/assets%2Fdf7e75028bff4b959bd5bdef48ded5a3%2F4fe955323953440bbc4d81d5f820c63e?format=webp&width=800"
-                  alt="Rula - Certified Provider"
-                  className="h-12 md:h-14 object-contain mb-3 group-hover:scale-110 transition-transform duration-300"
-                />
-                <span className="text-xs md:text-sm font-semibold text-primary text-center">
-                  View on Rula
                 </span>
               </div>
             </a>
