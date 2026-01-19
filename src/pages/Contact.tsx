@@ -136,10 +136,10 @@ const Contact = () => {
                     <div>
                       <h3 className="font-heading font-semibold mb-2">Service Locations</h3>
                       <p className="text-sm md:text-base text-muted-foreground">
-                        Austin, Texas 78759<br />
+                        Serving All of Texas<br />
                         Online Only<br />
                         <br />
-                        <span className="font-semibold">Telehealth Available in Texas</span>
+                        <span className="font-semibold">Telehealth Available Throughout Texas</span>
                       </p>
                     </div>
                   </div>

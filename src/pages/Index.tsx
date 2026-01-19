@@ -10,11 +10,7 @@ import {
   DialogTitle,
 } from "@/components/ui/dialog";
 import { Link, useNavigate } from "react-router-dom";
-import heroImage from "@/assets/hero-family.jpg";
 import missionImage from "@/assets/mission-hands.jpg";
-import carousel1 from "@/assets/hero-carousel-1.jpg";
-import carousel2 from "@/assets/hero-carousel-2.jpg";
-import carousel3 from "@/assets/hero-carousel-3.jpg";
 import { Users, Heart, Brain, ShieldCheck, Stethoscope, Lightbulb, X } from "lucide-react";
 import useEmblaCarousel from 'embla-carousel-react';
 import { useEffect, useState } from 'react';
@@ -33,7 +29,11 @@ const Index = () => {
     }
   }, [emblaApi]);
 
-  const carouselImages = [carousel1, carousel2, carousel3];
+  const carouselImages = [
+    "https://cdn.builder.io/api/v1/image/assets%2Fbbaa1bd46cba4346a5396fea34722449%2Fbaa0baf123564114846dff5bb6e24da8?format=webp&width=800",
+    "https://cdn.builder.io/api/v1/image/assets%2Fbbaa1bd46cba4346a5396fea34722449%2Fac3d78b7f608471d88f5760375184753?format=webp&width=800",
+    "https://cdn.builder.io/api/v1/image/assets%2Fbbaa1bd46cba4346a5396fea34722449%2F1e9475ae49944994b042b8cf24c5d5cd?format=webp&width=800"
+  ];
 
   const services = [
     {
@@ -218,19 +218,16 @@ const Index = () => {
           </div>
         </div>
 
-        {/* Text Overlay - Bottom Left */}
-        <div className="relative z-10 container mx-auto px-4 flex justify-start w-full">
-          <Link to="/team" className="group max-w-xs sm:max-w-sm md:max-w-md bg-white/95 backdrop-blur-sm rounded-lg p-4 sm:p-5 md:p-6 shadow-2xl hover:shadow-xl transition-all duration-300">
-            <h1 className="text-xl sm:text-2xl md:text-3xl font-heading font-bold text-black pb-3 sm:pb-4 border-b-[3px] border-blue-400 leading-tight mb-3 group-hover:text-primary transition-colors">
+        {/* Text Overlay - Centered */}
+        <div className="relative z-10 container mx-auto px-4 flex justify-center w-full">
+          <div className="group max-w-xs sm:max-w-sm md:max-w-md bg-transparent rounded-lg p-4 sm:p-5 md:p-6 transition-all duration-300 text-center">
+            <h1 className="text-xl sm:text-2xl md:text-3xl font-heading font-bold text-white pb-3 sm:pb-4 border-b-[3px] border-blue-400 leading-tight mb-3 group-hover:text-blue-200 transition-colors">
               Healing the Mind,<br />Nurturing the Whole You
             </h1>
-            <p className="text-xs sm:text-sm md:text-base text-muted-foreground leading-relaxed">
+            <p className="text-xs sm:text-sm md:text-base text-white/90 leading-relaxed">
               Compassionate, evidence-based mental health care in Texas. Together, we'll create a personalized path to your wellness.
             </p>
-            <span className="inline-block text-xs sm:text-sm font-semibold text-primary mt-3 group-hover:translate-x-1 transition-transform">
-              Meet Our Provider →
-            </span>
-          </Link>
+          </div>
         </div>
       </section>
 
@@ -295,6 +292,13 @@ const Index = () => {
                 <p className="text-xs sm:text-sm md:text-base text-muted-foreground leading-relaxed">
                   A board-certified Psychiatric Mental Health Nurse Practitioner dedicated to helping adults feel emotionally supported, understood, and empowered. Tayo provides compassionate, evidence-based mental health care with a warm and patient-centered approach. With a holistic perspective, Tayo blends medication management with supportive therapy to help you achieve lasting wellness.
                 </p>
+                <div className="mt-4">
+                  <Link to="/team">
+                    <Button className="bg-primary hover:bg-primary/90 text-primary-foreground text-sm sm:text-base">
+                      Learn More →
+                    </Button>
+                  </Link>
+                </div>
               </div>
             </div>
           </div>
@@ -558,11 +562,9 @@ const Index = () => {
                   <div>
                     <h3 className="font-heading font-semibold text-lg md:text-xl mb-4">WillMind Mental Health</h3>
                     <div className="space-y-3 text-xs sm:text-sm md:text-base text-muted-foreground">
-                      <p><strong>Based in:</strong></p>
-                      <p>Austin, Texas<br /></p>
                       <p><strong>Service Area:</strong></p>
-                      <p className="font-semibold text-primary">Virtual Care Throughout Texas</p>
-                      <p className="text-xs italic">Serving patients across all of Texas via secure telehealth</p>
+                      <p className="font-semibold text-primary">Serving All of Texas</p>
+                      <p className="text-xs italic">Comprehensive virtual psychiatric care throughout Texas via secure telehealth</p>
                       <p className="pt-2">
                         <strong>Phone:</strong> <a href="tel:5125991462" className="hover:text-primary transition-colors">(512) 599-1462</a>
                       </p>

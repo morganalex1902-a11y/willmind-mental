@@ -10,6 +10,34 @@ import {
   DropdownMenuTrigger,
 } from "@/components/ui/dropdown-menu";
 
+const ServicesDropdown = ({ servicesLinks }: { servicesLinks: Array<{ name: string; path: string }> }) => {
+  const [isOpen, setIsOpen] = useState(false);
+
+  return (
+    <div
+      onMouseEnter={() => setIsOpen(true)}
+      onMouseLeave={() => setIsOpen(false)}
+    >
+      <DropdownMenu open={isOpen} onOpenChange={setIsOpen}>
+        <DropdownMenuTrigger
+          className="text-sm font-medium transition-colors hover:text-primary text-foreground flex items-center gap-1"
+        >
+          SERVICES <ChevronDown className="w-4 h-4" />
+        </DropdownMenuTrigger>
+        <DropdownMenuContent align="center" className="w-56">
+          {servicesLinks.map((service) => (
+            <DropdownMenuItem key={service.path} asChild>
+              <Link to={service.path} className="cursor-pointer">
+                {service.name}
+              </Link>
+            </DropdownMenuItem>
+          ))}
+        </DropdownMenuContent>
+      </DropdownMenu>
+    </div>
+  );
+};
+
 const Navigation = () => {
   const [isOpen, setIsOpen] = useState(false);
   const [isScrolled, setIsScrolled] = useState(false);
@@ -41,6 +69,8 @@ const Navigation = () => {
     { name: "ADHD/ADD", path: "/services#adhd" },
     { name: "Bipolar Disorders", path: "/services#bipolar" },
     { name: "Eating Disorders", path: "/services#eating" },
+    { name: "Preceptorship for PMHNP Students", path: "/services#preceptorship" },
+    { name: "Surgical Clearance Evaluations", path: "/services#surgical" },
     { name: "Insomnia & Sleep Disorders", path: "/services#insomnia" },
   ];
 
@@ -80,20 +110,7 @@ const Navigation = () => {
             >
               HOME
             </Link>
-            <DropdownMenu>
-              <DropdownMenuTrigger className="text-sm font-medium transition-colors hover:text-primary text-foreground flex items-center gap-1">
-                SERVICES <ChevronDown className="w-4 h-4" />
-              </DropdownMenuTrigger>
-              <DropdownMenuContent align="center" className="w-56">
-                {servicesLinks.map((service) => (
-                  <DropdownMenuItem key={service.path} asChild>
-                    <Link to={service.path} className="cursor-pointer">
-                      {service.name}
-                    </Link>
-                  </DropdownMenuItem>
-                ))}
-              </DropdownMenuContent>
-            </DropdownMenu>
+            <ServicesDropdown servicesLinks={servicesLinks} />
             {navLinks.slice(1).map((link) => (
               <Link
                 key={link.path}

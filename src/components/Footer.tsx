@@ -13,7 +13,7 @@ const Footer = () => {
               <div className="flex items-start gap-2">
                 <MapPin className="w-4 h-4 text-primary mt-1 flex-shrink-0" />
                 <p className="text-muted-foreground">
-                  Austin, Texas 78759<br />
+                  Serving All of Texas<br />
                   Online Only
                 </p>
               </div>
