@@ -72,6 +72,26 @@ const About = () => {
                 </p>
               </div>
 
+              {/* Meet the Provider Section */}
+              <div className="border-t pt-6 md:pt-8">
+                <div className="space-y-4 md:space-y-6">
+                  <Link to="/team" className="group relative w-full flex items-center justify-center rounded-lg overflow-hidden min-h-[300px] sm:min-h-[350px] md:min-h-[400px] cursor-pointer">
+                    <img
+                      src="https://cdn.builder.io/api/v1/image/assets%2F8c5319227ec44fd9bdef2d63efcb9acb%2F0854667eb6364130ac305c6e07c7cade?format=webp&width=1200&quality=95"
+                      alt="Tayo Maduagwu, PMHNP-BC"
+                      className="w-full h-full object-cover rounded-lg filter brightness-105 contrast-110 group-hover:scale-105 transition-transform duration-300"
+                    />
+                  </Link>
+                  <div className="text-center">
+                    <Link to="/team">
+                      <Button className="bg-primary hover:bg-primary/90 text-primary-foreground text-sm sm:text-base px-8 py-3">
+                        Meet the Provider
+                      </Button>
+                    </Link>
+                  </div>
+                </div>
+              </div>
+
               {/* Our Approach */}
               <div className="border-t pt-6 md:pt-8">
                 <h2 className="text-xl sm:text-2xl md:text-3xl font-heading font-bold text-primary mb-4 md:mb-6">My Approach to Care</h2>
