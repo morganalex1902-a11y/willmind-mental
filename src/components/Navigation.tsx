@@ -10,6 +10,30 @@ import {
   DropdownMenuTrigger,
 } from "@/components/ui/dropdown-menu";
 
+const ServicesDropdown = ({ servicesLinks }: { servicesLinks: Array<{ name: string; path: string }> }) => {
+  const [isOpen, setIsOpen] = useState(false);
+
+  return (
+    <DropdownMenu open={isOpen} onOpenChange={setIsOpen}>
+      <DropdownMenuTrigger
+        className="text-sm font-medium transition-colors hover:text-primary text-foreground flex items-center gap-1"
+        onMouseEnter={() => setIsOpen(true)}
+      >
+        SERVICES <ChevronDown className="w-4 h-4" />
+      </DropdownMenuTrigger>
+      <DropdownMenuContent align="center" className="w-56" onMouseLeave={() => setIsOpen(false)} onMouseEnter={() => setIsOpen(true)}>
+        {servicesLinks.map((service) => (
+          <DropdownMenuItem key={service.path} asChild>
+            <Link to={service.path} className="cursor-pointer">
+              {service.name}
+            </Link>
+          </DropdownMenuItem>
+        ))}
+      </DropdownMenuContent>
+    </DropdownMenu>
+  );
+};
+
 const Navigation = () => {
   const [isOpen, setIsOpen] = useState(false);
   const [isScrolled, setIsScrolled] = useState(false);
