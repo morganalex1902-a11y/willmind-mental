@@ -128,4 +128,19 @@ All colors MUST be HSL.
   h1, h2, h3, h4, h5, h6 {
     font-family: 'Montserrat', sans-serif;
   }
+
+  /* Image optimization for crystal clear pixels */
+  img {
+    image-rendering: -webkit-optimize-contrast;
+    image-rendering: crisp-edges;
+    backface-visibility: hidden;
+    perspective: 1000px;
+  }
+
+  /* Ensure images render at native resolution */
+  img[src] {
+    max-width: 100%;
+    height: auto;
+    display: block;
+  }
 }
