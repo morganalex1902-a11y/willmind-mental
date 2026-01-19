@@ -549,37 +549,46 @@ const Index = () => {
       <section className="py-12 md:py-16 lg:py-20 bg-white/95 flex justify-center">
         <div className="w-full max-w-[1200px] px-4 md:px-6 lg:px-8">
           <h2 className="text-2xl sm:text-3xl md:text-4xl font-heading font-bold text-center mb-8 md:mb-12 text-primary">
-            Our Location
+            Serving Texas
           </h2>
           <div className="max-w-4xl mx-auto">
             <Card>
               <CardContent className="p-4 sm:p-6 md:p-8">
-                <div className="grid grid-cols-1 md:grid-cols-2 gap-6 md:gap-8">
+                <div className="grid grid-cols-1 lg:grid-cols-2 gap-6 md:gap-8">
                   <div>
                     <h3 className="font-heading font-semibold text-lg md:text-xl mb-4">WillMind Mental Health</h3>
                     <div className="space-y-3 text-xs sm:text-sm md:text-base text-muted-foreground">
-                      <p><strong>Location:</strong></p>
-                      <p>Austin, Texas 78759<br />Online Only<br /></p>
-                      <p>
+                      <p><strong>Based in:</strong></p>
+                      <p>Austin, Texas<br /></p>
+                      <p><strong>Service Area:</strong></p>
+                      <p className="font-semibold text-primary">Virtual Care Throughout Texas</p>
+                      <p className="text-xs italic">Serving patients across all of Texas via secure telehealth</p>
+                      <p className="pt-2">
                         <strong>Phone:</strong> <a href="tel:5125991462" className="hover:text-primary transition-colors">(512) 599-1462</a>
                       </p>
                       <p>
                         <strong>Email:</strong> <a href="mailto:info@willmindmentalhealth.com" className="hover:text-primary transition-colors break-all">info@willmindmentalhealth.com</a>
                       </p>
-                      <p>
-                        <strong>Service Area:</strong> Virtual Care in Texas
-                      </p>
                     </div>
                   </div>
-                  <div>
-                    <h3 className="font-heading font-semibold text-lg md:text-xl mb-4">Availability</h3>
-                    <div className="space-y-2 text-xs sm:text-sm md:text-base text-muted-foreground">
-                      <p>Available Online Only</p>
-                      <p>Telehealth Appointments</p>
-                      <p>Accepting New Clients in Texas</p>
-                      <p className="pt-2 text-xs italic">Call (512) 599-1462 for scheduling details</p>
-                    </div>
+                  <div className="relative rounded-lg overflow-hidden min-h-[250px] sm:min-h-[300px] bg-gray-200">
+                    <iframe
+                      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3447.597893873827!2d-97.7431!3d30.2672!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8644b59fb5d6d1f1%3A0x8c5a8e1d1d1d1d1d!2sAustin%2C%20TX!5e0!3m2!1sen!2sus!4v1234567890"
+                      width="100%"
+                      height="100%"
+                      style={{ border: 0, minHeight: '250px' }}
+                      allowFullScreen
+                      loading="lazy"
+                      referrerPolicy="no-referrer-when-downgrade"
+                      title="Texas Service Area Map"
+                    />
                   </div>
+                </div>
+                <div className="mt-6 md:mt-8 bg-blue-50 border-l-4 border-primary p-4 rounded">
+                  <h4 className="font-semibold text-sm sm:text-base text-primary mb-2">Virtual Care Advantage</h4>
+                  <p className="text-xs sm:text-sm text-muted-foreground">
+                    No matter where you are in Texas, you can access compassionate mental health care from the comfort of your home. Our secure telehealth platform makes quality psychiatric care accessible and convenient.
+                  </p>
                 </div>
                 <div className="mt-6 md:mt-8">
                   <Link to="/contact" className="block sm:inline-block">
