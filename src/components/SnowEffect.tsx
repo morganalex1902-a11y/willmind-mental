@@ -20,10 +20,10 @@ const SnowEffect: React.FC = () => {
           style={{
             left: `${flake.left}%`,
             animationDelay: `${flake.delay}s`,
-            animationDuration: `${flake.duration}s`,
+            '--duration': `${flake.duration}s`,
             fontSize: `${flake.size}rem`,
             opacity: Math.random() * 0.5 + 0.5,
-          }}
+          } as React.CSSProperties & { '--duration': string }}
         >
           ❄
         </div>
