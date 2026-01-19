@@ -22,7 +22,7 @@ const SnowEffect: React.FC = () => {
             animationDelay: `${particle.delay}s`,
             '--duration': `${particle.duration}s`,
             '--size': `${particle.size}px`,
-            opacity: Math.random() * 0.5 + 0.6,
+            opacity: Math.random() * 0.3 + 0.8,
           } as React.CSSProperties & { '--duration': string; '--size': string }}
         />
       ))}
