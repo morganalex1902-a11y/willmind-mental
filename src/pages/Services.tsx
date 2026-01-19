@@ -316,6 +316,11 @@ const Services = () => {
                 <DialogTitle className="text-lg sm:text-xl md:text-2xl break-words">{selectedService.title}</DialogTitle>
               </DialogHeader>
               <div className="space-y-4 sm:space-y-6">
+                <img
+                  src={selectedService.image}
+                  alt={selectedService.title}
+                  className="w-full h-48 sm:h-56 md:h-64 object-cover rounded-lg"
+                />
                 <div>
                   <p className="text-xs sm:text-sm md:text-base text-muted-foreground leading-relaxed">
                     {selectedService.description}
