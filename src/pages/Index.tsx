@@ -123,7 +123,7 @@ const Index = () => {
     {
       icon: Brain,
       title: "Bipolar Disorders",
-      image: "https://images.unsplash.com/photo-1615391254190-46c1ee8e6b4a?w=400&h=300&fit=crop",
+      image: "https://images.unsplash.com/photo-1527689368864-3a821dbccc34?w=400&h=300&fit=crop",
       description: "Bipolar disorder involves extreme mood swings between depression and mania. Our integrated approach includes mood stabilizing medications, therapy, and lifestyle management to help you achieve stability and wellness.",
       details: [
         "Bipolar I and Bipolar II Disorder treatment",
@@ -137,7 +137,7 @@ const Index = () => {
     {
       icon: Heart,
       title: "Eating Disorders",
-      image: "https://images.unsplash.com/photo-1490645935967-10de6ba17061?w=400&h=300&fit=crop",
+      image: "https://images.unsplash.com/photo-1576091160550-112173f7b090?w=400&h=300&fit=crop",
       description: "Eating disorders are serious mental health conditions requiring specialized care. We provide compassionate, evidence-based treatment including therapy, nutrition support, and medical monitoring for recovery.",
       details: [
         "Anorexia Nervosa treatment",
@@ -151,7 +151,7 @@ const Index = () => {
     {
       icon: Users,
       title: "Preceptorship for PMHNP Students",
-      image: "https://images.unsplash.com/photo-1576091160550-112173f7b090?w=400&h=300&fit=crop",
+      image: "https://images.unsplash.com/photo-1576091160399-f2aaad00c5fe?w=400&h=300&fit=crop",
       description: "We are proud to offer clinical preceptorship opportunities for psychiatric mental health nurse practitioner (PMHNP) students. Our program provides comprehensive, hands-on training in psychiatric evaluation, medication management, psychotherapy, and faith-informed care.",
       details: [
         "Comprehensive clinical training",
@@ -167,7 +167,7 @@ const Index = () => {
     {
       icon: ShieldCheck,
       title: "Surgical Clearance Evaluations",
-      image: "https://images.unsplash.com/photo-1576091160399-f2aaad00c5fe?w=400&h=300&fit=crop",
+      image: "https://images.unsplash.com/photo-1511737804438-1c67112a2105?w=400&h=300&fit=crop",
       description: "Before undergoing surgery, many patients require psychiatric clearance to ensure they are mentally and emotionally ready for the procedure. Our comprehensive surgical clearance evaluations assess your mental health status, medications, coping abilities, and support systems.",
       details: [
         "Comprehensive mental health assessment",
@@ -183,7 +183,7 @@ const Index = () => {
     {
       icon: Brain,
       title: "Insomnia & Sleep Disorders",
-      image: "https://images.unsplash.com/photo-1541961017774-22349e4a1262?w=400&h=300&fit=crop",
+      image: "https://images.unsplash.com/photo-1517694712202-14dd9538aa97?w=400&h=300&fit=crop",
       description: "Sleep is essential for physical health, emotional well-being, and cognitive function. Sleep disturbances can impact every aspect of your life. We provide comprehensive sleep disorder evaluation and treatment including sleep hygiene optimization, cognitive-behavioral therapy for insomnia (CBT-I), medication management, and lifestyle modifications to help you achieve restorative, quality sleep.",
       details: [
         "Comprehensive sleep assessment and evaluation",
