@@ -219,16 +219,16 @@ const Index = () => {
           </div>
         </div>
 
-        {/* Text Overlay - Bottom Left */}
-        <div className="relative z-10 container mx-auto px-4 flex justify-start w-full">
-          <Link to="/team" className="group max-w-xs sm:max-w-sm md:max-w-md bg-white/95 backdrop-blur-sm rounded-lg p-4 sm:p-5 md:p-6 shadow-2xl hover:shadow-xl transition-all duration-300">
-            <h1 className="text-xl sm:text-2xl md:text-3xl font-heading font-bold text-black pb-3 sm:pb-4 border-b-[3px] border-blue-400 leading-tight mb-3 group-hover:text-primary transition-colors">
+        {/* Text Overlay - Centered */}
+        <div className="relative z-10 container mx-auto px-4 flex justify-center items-center w-full h-full">
+          <Link to="/team" className="group text-center">
+            <h1 className="text-3xl sm:text-4xl md:text-5xl font-heading font-bold bg-gradient-to-r from-blue-500 via-purple-500 to-pink-500 bg-clip-text text-transparent leading-tight mb-4">
               Healing the Mind,<br />Nurturing the Whole You
             </h1>
-            <p className="text-xs sm:text-sm md:text-base text-muted-foreground leading-relaxed">
+            <p className="text-sm sm:text-base md:text-lg text-white leading-relaxed max-w-2xl mx-auto mb-6">
               Compassionate, evidence-based mental health care in Texas. Together, we'll create a personalized path to your wellness.
             </p>
-            <span className="inline-block text-xs sm:text-sm font-semibold text-primary mt-3 group-hover:translate-x-1 transition-transform">
+            <span className="inline-block text-sm sm:text-base font-semibold text-white bg-blue-600 hover:bg-blue-700 px-6 py-2 rounded-lg transition-all group-hover:translate-x-1">
               Meet Our Provider →
             </span>
           </Link>
