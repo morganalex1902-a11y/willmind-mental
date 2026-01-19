@@ -57,9 +57,14 @@ const Navigation = () => {
               alt="WillMind Mental Health"
               className={`transition-all duration-300 group-hover:scale-105 object-contain ${isScrolled ? "h-10" : "h-16"}`}
             />
-            <span className={`font-bold text-primary transition-all duration-300 whitespace-nowrap ${isScrolled ? "text-lg" : "text-2xl"}`}>
-              WillMind Mental Health
-            </span>
+            <div className="flex flex-col leading-tight">
+              <span className={`font-decorative font-bold text-primary transition-all duration-300 ${isScrolled ? "text-xl" : "text-3xl"}`}>
+                WillMind
+              </span>
+              <span className={`font-medical font-medium text-foreground transition-all duration-300 ${isScrolled ? "text-xs" : "text-sm"}`}>
+                Mental Health
+              </span>
+            </div>
           </Link>
         </div>
 
