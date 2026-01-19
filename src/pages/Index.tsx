@@ -319,9 +319,12 @@ const Index = () => {
                   <img
                     src={service.image}
                     alt={service.title}
-                    className="w-full h-full object-cover"
+                    className="w-full h-full object-cover group-hover:blur-sm transition-all duration-300 group-hover:opacity-0"
                   />
-                  <div className="absolute inset-0 bg-primary/40" />
+                  <div className="absolute inset-0 bg-primary/40 group-hover:bg-primary/60 transition-all duration-300" />
+                  <div className="absolute inset-0 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-all duration-300">
+                    <span className="text-white font-semibold text-sm">View Details</span>
+                  </div>
                 </div>
                 <CardContent className="p-3 sm:p-4 text-center">
                   <h3 className="font-heading font-semibold text-sm sm:text-base group-hover:text-primary transition-all line-clamp-2">{service.title}</h3>
