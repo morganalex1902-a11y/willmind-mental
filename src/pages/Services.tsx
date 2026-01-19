@@ -170,13 +170,13 @@ const Services = () => {
       <main className="flex-1 pt-32 md:pt-40">
         <section className="py-12 md:py-16 lg:py-24 bg-white/95 flex justify-center">
           <div className="w-full max-w-[1200px] px-4 md:px-6 lg:px-8">
-            <h1 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-heading font-bold text-center mb-4 md:mb-6 text-primary">Our Services</h1>
+            <h1 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-heading font-bold text-center mb-4 md:mb-6 text-primary">My Services</h1>
             <p className="text-center text-muted-foreground mb-8 md:mb-12 lg:mb-16 max-w-2xl mx-auto text-xs sm:text-sm md:text-base lg:text-lg leading-relaxed">
-              We offer a comprehensive range of mental health services designed to support your journey to wellness. At Serene Minds Wellness, our integrated, faith-informed approach addresses the biological, psychological, environmental, and spiritual factors that shape your mental health.
+              I offer a comprehensive range of mental health services designed to support your journey to wellness. At WillMind Mental Health, my evidence-based, patient-centered approach addresses the biological, psychological, and social factors that shape your mental health.
             </p>
 
             <div className="mb-12 md:mb-16 max-w-4xl mx-auto">
-              <h2 className="text-xl sm:text-2xl md:text-3xl font-heading font-bold text-primary mb-6">Conditions We Treat</h2>
+              <h2 className="text-xl sm:text-2xl md:text-3xl font-heading font-bold text-primary mb-6">Conditions I Treat</h2>
               <div className="grid grid-cols-1 md:grid-cols-2 gap-4 md:gap-6">
                 <div>
                   <ul className="space-y-2 text-xs sm:text-sm md:text-base text-muted-foreground">
