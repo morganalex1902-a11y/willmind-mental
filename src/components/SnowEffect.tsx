@@ -3,12 +3,12 @@ import './SnowEffect.css';
 
 const SnowEffect: React.FC = () => {
   // Generate array of snow particles with random positions and animation delays
-  const snowParticles = Array.from({ length: 80 }, (_, i) => ({
+  const snowParticles = Array.from({ length: 120 }, (_, i) => ({
     id: i,
-    delay: Math.random() * 2,
-    duration: Math.random() * 8 + 12,
+    delay: Math.random() * 3,
+    duration: Math.random() * 6 + 14,
     left: Math.random() * 100,
-    size: Math.random() * 3 + 2,
+    size: Math.random() * 4 + 2.5,
   }));
 
   return (
