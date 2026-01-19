@@ -12,6 +12,7 @@ import Team from "./pages/Team";
 import Insurance from "./pages/Insurance";
 import Testimonials from "./pages/Testimonials";
 import NotFound from "./pages/NotFound";
+import SnowEffect from "./components/SnowEffect";
 
 const queryClient = new QueryClient();
 
@@ -30,6 +31,7 @@ const App = () => (
     <TooltipProvider>
       <Toaster />
       <Sonner />
+      <SnowEffect />
       <BrowserRouter>
         <ScrollToTop />
         <div className="min-h-screen flex flex-col bg-black/5">

@@ -12,9 +12,6 @@ import {
 import { Link, useNavigate } from "react-router-dom";
 import heroImage from "@/assets/hero-family.jpg";
 import missionImage from "@/assets/mission-hands.jpg";
-import carousel1 from "@/assets/hero-carousel-1.jpg";
-import carousel2 from "@/assets/hero-carousel-2.jpg";
-import carousel3 from "@/assets/hero-carousel-3.jpg";
 import { Users, Heart, Brain, ShieldCheck, Stethoscope, Lightbulb, X } from "lucide-react";
 import useEmblaCarousel from 'embla-carousel-react';
 import { useEffect, useState } from 'react';
@@ -33,7 +30,11 @@ const Index = () => {
     }
   }, [emblaApi]);
 
-  const carouselImages = [carousel1, carousel2, carousel3];
+  const carouselImages = [
+    "https://cdn.builder.io/api/v1/image/assets%2F7f3a261a364e4e158e176b65dc7b168f%2F7443db053bbc44038c187b3ed49f7482?format=webp&width=800",
+    "https://cdn.builder.io/api/v1/image/assets%2F7f3a261a364e4e158e176b65dc7b168f%2F4c1cce8bba1e442c8c6503f460bca66d?format=webp&width=800",
+    "https://cdn.builder.io/api/v1/image/assets%2F7f3a261a364e4e158e176b65dc7b168f%2Fcff1894430c6418c8020c1ad66d77e4b?format=webp&width=800",
+  ];
 
   const services = [
     {
@@ -218,19 +219,16 @@ const Index = () => {
           </div>
         </div>
 
-        {/* Text Overlay - Bottom Left */}
-        <div className="relative z-10 container mx-auto px-4 flex justify-start w-full">
-          <Link to="/team" className="group max-w-xs sm:max-w-sm md:max-w-md bg-white/95 backdrop-blur-sm rounded-lg p-4 sm:p-5 md:p-6 shadow-2xl hover:shadow-xl transition-all duration-300">
-            <h1 className="text-xl sm:text-2xl md:text-3xl font-heading font-bold text-black pb-3 sm:pb-4 border-b-[3px] border-blue-400 leading-tight mb-3 group-hover:text-primary transition-colors">
+        {/* Text Overlay - Centered */}
+        <div className="relative z-10 container mx-auto px-4 flex justify-center items-center w-full h-full">
+          <div className="text-center">
+            <h1 className="text-3xl sm:text-4xl md:text-5xl font-heading font-bold bg-gradient-to-r from-orange-400 via-orange-500 to-green-500 bg-clip-text text-transparent leading-tight mb-4 drop-shadow-lg">
               Healing the Mind,<br />Nurturing the Whole You
             </h1>
-            <p className="text-xs sm:text-sm md:text-base text-muted-foreground leading-relaxed">
+            <p className="text-sm sm:text-base md:text-lg text-white leading-relaxed max-w-2xl mx-auto mb-6 drop-shadow-md">
               Compassionate, evidence-based mental health care in Texas. Together, we'll create a personalized path to your wellness.
             </p>
-            <span className="inline-block text-xs sm:text-sm font-semibold text-primary mt-3 group-hover:translate-x-1 transition-transform">
-              Meet Our Provider →
-            </span>
-          </Link>
+          </div>
         </div>
       </section>
 
@@ -285,9 +283,9 @@ const Index = () => {
             <div className="space-y-4 md:space-y-6">
               <div className="relative w-full flex items-center justify-center rounded-lg overflow-hidden min-h-[300px] sm:min-h-[350px] md:min-h-[400px]">
                 <img
-                  src="https://cdn.builder.io/api/v1/image/assets%2F8c5319227ec44fd9bdef2d63efcb9acb%2F0854667eb6364130ac305c6e07c7cade?format=webp&width=1200&quality=95"
+                  src="https://cdn.builder.io/api/v1/image/assets%2F7f3a261a364e4e158e176b65dc7b168f%2F04179bbac5f04c9f827ca51eeb45308a?format=webp&width=800"
                   alt="Tayo Maduagwu, PMHNP-BC"
-                  className="w-full h-full object-cover rounded-lg filter brightness-105 contrast-110"
+                  className="w-full h-full object-cover rounded-lg"
                 />
               </div>
               <div className="bg-blue-50 border-l-4 border-primary p-4 sm:p-5 md:p-6 rounded">
@@ -296,6 +294,11 @@ const Index = () => {
                   A board-certified Psychiatric Mental Health Nurse Practitioner dedicated to helping adults feel emotionally supported, understood, and empowered. Tayo provides compassionate, evidence-based mental health care with a warm and patient-centered approach. With a holistic perspective, Tayo blends medication management with supportive therapy to help you achieve lasting wellness.
                 </p>
               </div>
+              <Link to="/team" className="inline-block">
+                <Button className="w-full bg-gradient-to-r from-orange-400 to-green-500 hover:from-orange-500 hover:to-green-600 text-white font-semibold text-base px-8 py-3 rounded-lg transition-all">
+                  Meet Our Provider →
+                </Button>
+              </Link>
             </div>
           </div>
         </div>
