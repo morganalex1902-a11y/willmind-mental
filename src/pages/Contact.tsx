@@ -39,7 +39,7 @@ const Contact = () => {
       const formElement = e.currentTarget;
       const formDataObj = new FormData(formElement);
 
-      const response = await fetch("https://formsubmit.co/patience@serenemindswellness.us", {
+      const response = await fetch("https://formsubmit.co/info@willmindmentalhealth.com", {
         method: "POST",
         body: formDataObj
       });
@@ -136,10 +136,10 @@ const Contact = () => {
                     <div>
                       <h3 className="font-heading font-semibold mb-2">Service Locations</h3>
                       <p className="text-sm md:text-base text-muted-foreground">
-                        580 Lexington Green Lane<br />
-                        Sanford, Florida 32771<br />
+                        Austin, Texas 78759<br />
+                        Online Only<br />
                         <br />
-                        <span className="font-semibold">Telehealth Statewide Available</span>
+                        <span className="font-semibold">Telehealth Available in Texas</span>
                       </p>
                     </div>
                   </div>
@@ -152,8 +152,8 @@ const Contact = () => {
                     <Phone className="w-5 md:w-6 h-5 md:h-6 text-primary flex-shrink-0 mt-1" />
                     <div>
                       <h3 className="font-heading font-semibold mb-2">Phone</h3>
-                      <a href="tel:4076937055" className="text-sm md:text-base text-muted-foreground hover:text-primary transition-colors">
-                        (407) 693-7055
+                      <a href="tel:5125991462" className="text-sm md:text-base text-muted-foreground hover:text-primary transition-colors">
+                        (512) 599-1462
                       </a>
                     </div>
                   </div>
@@ -166,8 +166,8 @@ const Contact = () => {
                     <Mail className="w-5 md:w-6 h-5 md:h-6 text-primary flex-shrink-0 mt-1" />
                     <div>
                       <h3 className="font-heading font-semibold mb-2">Email</h3>
-                      <a href="mailto:patience@serenemindswellness.us" className="text-sm md:text-base text-muted-foreground hover:text-primary transition-colors break-all">
-                        patience@serenemindswellness.us
+                      <a href="mailto:info@willmindmentalhealth.com" className="text-sm md:text-base text-muted-foreground hover:text-primary transition-colors break-all">
+                        info@willmindmentalhealth.com
                       </a>
                     </div>
                   </div>
@@ -176,11 +176,11 @@ const Contact = () => {
 
               <Card>
                 <CardContent className="p-6 md:p-8">
-                  <h3 className="font-heading font-semibold mb-3">Office Hours</h3>
+                  <h3 className="font-heading font-semibold mb-3">Availability</h3>
                   <div className="space-y-2 text-xs md:text-sm text-muted-foreground">
-                    <p>Monday - Friday: 9:00 AM - 5:00 PM</p>
-                    <p>Saturday: By Appointment</p>
-                    <p>Sunday: Closed</p>
+                    <p>Available Online Only</p>
+                    <p>Telehealth Appointments</p>
+                    <p>Accepting New Clients in Texas</p>
                   </div>
                 </CardContent>
               </Card>
@@ -189,10 +189,10 @@ const Contact = () => {
 
           {/* Map Section */}
           <div className="mt-12 md:mt-16">
-            <h2 className="text-2xl md:text-3xl font-heading font-semibold mb-6 text-center">Our Service Areas</h2>
+            <h2 className="text-2xl md:text-3xl font-heading font-semibold mb-6 text-center">Service Area: Texas</h2>
             <div className="rounded-lg overflow-hidden shadow-lg">
               <iframe
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d223022.93596913127!2d-81.5186806!3d28.54916!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88e73a37c2c2c2c2%3A0x1234567890ab!2sLake%20Mary%2C%20FL!5e0!3m2!1sen!2sus!4v1234567890"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d223244.0869236984!2d-97.9494696!3d30.2711286!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8644b599a0cc032f%3A0x5d9b464bd5d0b8f5!2sAustin%2C%20TX!5e0!3m2!1sen!2sus!4v1234567890"
                 width="100%"
                 height="450"
                 style={{ border: 0 }}
