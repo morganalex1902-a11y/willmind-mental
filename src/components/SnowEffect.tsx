@@ -2,31 +2,29 @@ import React from 'react';
 import './SnowEffect.css';
 
 const SnowEffect: React.FC = () => {
-  // Generate array of snowflakes with random positions and animation delays
-  const snowflakes = Array.from({ length: 50 }, (_, i) => ({
+  // Generate array of snow particles with random positions and animation delays
+  const snowParticles = Array.from({ length: 80 }, (_, i) => ({
     id: i,
     delay: Math.random() * 2,
-    duration: Math.random() * 8 + 10,
+    duration: Math.random() * 8 + 12,
     left: Math.random() * 100,
-    size: Math.random() * 1.5 + 0.5,
+    size: Math.random() * 3 + 2,
   }));
 
   return (
     <div className="snow-container">
-      {snowflakes.map((flake) => (
+      {snowParticles.map((particle) => (
         <div
-          key={flake.id}
-          className="snowflake"
+          key={particle.id}
+          className="snow-dot"
           style={{
-            left: `${flake.left}%`,
-            animationDelay: `${flake.delay}s`,
-            '--duration': `${flake.duration}s`,
-            fontSize: `${flake.size}rem`,
-            opacity: Math.random() * 0.5 + 0.5,
-          } as React.CSSProperties & { '--duration': string }}
-        >
-          ❄
-        </div>
+            left: `${particle.left}%`,
+            animationDelay: `${particle.delay}s`,
+            '--duration': `${particle.duration}s`,
+            '--size': `${particle.size}px`,
+            opacity: Math.random() * 0.6 + 0.4,
+          } as React.CSSProperties & { '--duration': string; '--size': string }}
+        />
       ))}
     </div>
   );
