@@ -106,20 +106,7 @@ const Navigation = () => {
             >
               HOME
             </Link>
-            <DropdownMenu>
-              <DropdownMenuTrigger className="text-sm font-medium transition-colors hover:text-primary text-foreground flex items-center gap-1">
-                SERVICES <ChevronDown className="w-4 h-4" />
-              </DropdownMenuTrigger>
-              <DropdownMenuContent align="center" className="w-56">
-                {servicesLinks.map((service) => (
-                  <DropdownMenuItem key={service.path} asChild>
-                    <Link to={service.path} className="cursor-pointer">
-                      {service.name}
-                    </Link>
-                  </DropdownMenuItem>
-                ))}
-              </DropdownMenuContent>
-            </DropdownMenu>
+            <ServicesDropdown servicesLinks={servicesLinks} />
             {navLinks.slice(1).map((link) => (
               <Link
                 key={link.path}
