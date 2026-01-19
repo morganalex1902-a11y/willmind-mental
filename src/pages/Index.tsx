@@ -313,9 +313,9 @@ const Index = () => {
                   <img
                     src={service.image}
                     alt={service.title}
-                    className="w-full h-full object-cover transition-all duration-300"
+                    className="w-full h-full object-cover"
                   />
-                  <div className="absolute inset-0 bg-primary/40 transition-colors duration-300" />
+                  <div className="absolute inset-0 bg-primary/40" />
                 </div>
                 <CardContent className="p-3 sm:p-4 text-center">
                   <h3 className="font-heading font-semibold text-sm sm:text-base group-hover:text-primary transition-all line-clamp-2">{service.title}</h3>
