@@ -220,11 +220,17 @@ const Index = () => {
 
         {/* Text Overlay - Bottom Left */}
         <div className="relative z-10 container mx-auto px-4 flex justify-start w-full">
-          <div className="max-w-xs sm:max-w-sm md:max-w-60 bg-white/95 backdrop-blur-sm rounded-lg p-3 sm:p-4 md:p-4 shadow-2xl">
-            <h1 className="text-xl sm:text-2xl md:text-2xl font-heading font-bold text-black pb-2 sm:pb-3 md:pb-3 border-b-[3px] border-blue-400 leading-tight">
-              Unlock Your<br />Mental Health
+          <Link to="/team" className="group max-w-xs sm:max-w-sm md:max-w-md bg-white/95 backdrop-blur-sm rounded-lg p-4 sm:p-5 md:p-6 shadow-2xl hover:shadow-xl transition-all duration-300">
+            <h1 className="text-xl sm:text-2xl md:text-3xl font-heading font-bold text-black pb-3 sm:pb-4 border-b-[3px] border-blue-400 leading-tight mb-3 group-hover:text-primary transition-colors">
+              Healing the Mind,<br />Nurturing the Whole You
             </h1>
-          </div>
+            <p className="text-xs sm:text-sm md:text-base text-muted-foreground leading-relaxed">
+              Compassionate, evidence-based mental health care in Texas. Together, we'll create a personalized path to your wellness.
+            </p>
+            <span className="inline-block text-xs sm:text-sm font-semibold text-primary mt-3 group-hover:translate-x-1 transition-transform">
+              Meet Our Provider →
+            </span>
+          </Link>
         </div>
       </section>
 
