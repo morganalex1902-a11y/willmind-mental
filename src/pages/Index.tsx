@@ -490,7 +490,7 @@ const Index = () => {
           <div className="text-center mb-8 md:mb-12">
             <h2 className="text-2xl sm:text-3xl md:text-4xl font-heading font-bold mb-4 text-primary">Insurance & Booking Made Easy</h2>
             <p className="text-sm sm:text-base md:text-lg text-muted-foreground max-w-2xl mx-auto">
-              We accept most insurances. Verify your coverage instantly and book your appointment through GrowTherapy.
+              We accept most insurances. Verify your coverage instantly and book your appointment through Headway.
             </p>
           </div>
 
@@ -498,7 +498,7 @@ const Index = () => {
             <div className="bg-white border-2 border-primary/20 rounded-lg p-6 md:p-8 mb-6 md:mb-8">
               <div className="flex flex-col sm:flex-row gap-6 items-center">
                 <div className="flex-1">
-                  <h3 className="text-lg sm:text-xl font-heading font-bold text-primary mb-3">Verify Insurance on GrowTherapy</h3>
+                  <h3 className="text-lg sm:text-xl font-heading font-bold text-primary mb-3">Verify Insurance on Headway</h3>
                   <ul className="space-y-2 text-xs sm:text-sm text-muted-foreground mb-4">
                     <li className="flex items-start gap-2">
                       <span className="text-primary font-bold flex-shrink-0">✓</span>
@@ -514,9 +514,9 @@ const Index = () => {
                     </li>
                   </ul>
                 </div>
-                <a href="https://growtherapy.com/book-appointment?prsid=6nwhh2q28y21&ref=grow&setting=Virtual" target="_blank" rel="noopener noreferrer" className="w-full sm:w-auto">
+                <a href="https://care.headway.co/providers/tayo-maduagwu" target="_blank" rel="noopener noreferrer" className="w-full sm:w-auto">
                   <Button className="w-full sm:w-auto bg-primary hover:bg-primary/90 text-primary-foreground font-semibold text-sm sm:text-base px-6 sm:px-8 py-2.5 sm:py-3">
-                    Verify & Book on GrowTherapy
+                    Verify & Book on Headway
                   </Button>
                 </a>
               </div>
