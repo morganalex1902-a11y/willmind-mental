@@ -31,7 +31,7 @@ const App = () => (
     <TooltipProvider>
       <Toaster />
       <Sonner />
-      <SnowParticles />
+      <SnowEffect />
       <BrowserRouter>
         <ScrollToTop />
         <div className="min-h-screen flex flex-col bg-black/5">
