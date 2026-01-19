@@ -233,10 +233,10 @@ const Index = () => {
         <div className="w-full max-w-[1200px] px-4 md:px-6 lg:px-8">
           <div className="mb-8 md:mb-12 text-center">
             <h2 className="text-2xl sm:text-3xl md:text-4xl font-heading font-bold mb-4 text-primary border-b-4 border-primary pb-2 inline-block">
-              About Serene Minds Wellness
+              About WillMind Mental Health
             </h2>
             <p className="text-sm sm:text-base md:text-lg text-muted-foreground max-w-3xl mx-auto mt-4">
-              Faith, Balance, and Healing — Integrated Psychiatry for Women, Teens, and Adults
+              Compassionate, Evidence-Based Psychiatric Care with a Warm and Patient-Centered Approach
             </p>
           </div>
 
@@ -288,15 +288,15 @@ const Index = () => {
             <div className="space-y-4 md:space-y-6">
               <div className="relative w-full flex items-center justify-center rounded-lg overflow-hidden min-h-[300px] sm:min-h-[350px] md:min-h-[400px]">
                 <img
-                  src="https://cdn.builder.io/api/v1/image/assets%2F7f3a261a364e4e158e176b65dc7b168f%2Faa358ae578d64fd18f07f1b1c7dd9cc1?format=webp&width=800"
-                  alt="Our services"
+                  src="https://cdn.builder.io/api/v1/image/assets%2F8c5319227ec44fd9bdef2d63efcb9acb%2F0854667eb6364130ac305c6e07c7cade?format=webp&width=800"
+                  alt="Tayo Maduagwu, PMHNP-BC"
                   className="w-full h-full object-cover rounded-lg"
                 />
               </div>
               <div className="bg-blue-50 border-l-4 border-primary p-4 sm:p-5 md:p-6 rounded">
-                <h3 className="font-heading font-semibold text-base sm:text-lg mb-2 text-primary">Founded by Patience Amune, APRN, PMHNP-BC</h3>
+                <h3 className="font-heading font-semibold text-base sm:text-lg mb-2 text-primary">Meet Tayo Maduagwu, MSN, APRN, PMHNP-BC</h3>
                 <p className="text-xs sm:text-sm md:text-base text-muted-foreground leading-relaxed">
-                  A board-certified psychiatric mental health nurse practitioner dedicated to whole-person healing. Patience blends psychiatric expertise, supportive therapy, lifestyle guidance, and faith-informed care to provide personalized, evidence-based treatment.
+                  A board-certified Psychiatric Mental Health Nurse Practitioner dedicated to helping adults feel emotionally supported, understood, and empowered. Tayo provides compassionate, evidence-based mental health care with a warm and patient-centered approach. With a holistic perspective, Tayo blends medication management with supportive therapy to help you achieve lasting wellness.
                 </p>
               </div>
             </div>
@@ -410,24 +410,24 @@ const Index = () => {
               />
             </div>
             <div className="text-white">
-              <h2 className="text-2xl sm:text-3xl md:text-4xl font-heading font-bold mb-4 md:mb-6">Our Mission & Commitment</h2>
+              <h2 className="text-2xl sm:text-3xl md:text-4xl font-heading font-bold mb-4 md:mb-6">My Approach to Care</h2>
               <div className="space-y-4 md:space-y-6">
                 <div>
-                  <h3 className="text-lg sm:text-xl font-semibold mb-2">Whole-Person Healing</h3>
+                  <h3 className="text-lg sm:text-xl font-semibold mb-2">Supportive & Empathetic Care</h3>
                   <p className="text-sm sm:text-base lg:text-lg leading-relaxed">
-                    At Serene Minds Wellness, we are dedicated to providing compassionate, evidence-based psychiatric care that blends expert medication management with holistic healing strategies. We believe that true healing addresses the mind, body, and spirit.
+                    I believe in a supportive, empathetic, and collaborative approach. I take the time to truly listen and understand what you're experiencing, so you feel supported and never rushed. Together, we explore your symptoms, your goals, and what wellness means to you.
                   </p>
                 </div>
                 <div>
-                  <h3 className="text-lg sm:text-xl font-semibold mb-2">Accessible Care</h3>
+                  <h3 className="text-lg sm:text-xl font-semibold mb-2">Virtual Care in Texas</h3>
                   <p className="text-sm sm:text-base lg:text-lg leading-relaxed">
-                    We serve women, adolescent girls, and adults throughout Florida through secure telehealth services and offer in-person appointments in Sanford, FL. Quality mental health care should be accessible to everyone, regardless of location or circumstances.
+                    I provide comprehensive virtual psychiatric services to adults in Texas. Through secure telehealth appointments, you get access to professional mental health care from the comfort and privacy of your home. Quality mental health care should be accessible to everyone.
                   </p>
                 </div>
                 <div>
-                  <h3 className="text-lg sm:text-xl font-semibold mb-2">Lasting Wellness</h3>
+                  <h3 className="text-lg sm:text-xl font-semibold mb-2">Your Journey Matters</h3>
                   <p className="text-sm sm:text-base lg:text-lg leading-relaxed">
-                    Our approach integrates mindfulness, lifestyle modifications, nutritional support, stress management, spiritual practices, and supportive education to promote lasting emotional wellness and help you achieve your mental health goals.
+                    No matter where you are in your journey, we will work together with clarity, empathy, and hope. I provide evidence-based treatments including medication management, cognitive-behavioral therapy (CBT), and other proven therapeutic approaches tailored to your unique needs.
                   </p>
                 </div>
               </div>
@@ -441,10 +441,10 @@ const Index = () => {
         <div className="w-full max-w-[1200px] px-4 md:px-6 lg:px-8">
           <div className="mb-8 md:mb-12 text-center">
             <h2 className="text-2xl sm:text-3xl md:text-4xl font-heading font-bold mb-4 text-primary">
-              Women's Mental Health Specialties
+              Top Specialties
             </h2>
             <p className="text-sm sm:text-base md:text-lg text-muted-foreground max-w-3xl mx-auto">
-              We proudly support women navigating unique hormonal and life transitions with compassionate, dignity-centered care.
+              I specialize in treating these conditions with evidence-based, compassionate care.
             </p>
           </div>
 
@@ -454,19 +454,19 @@ const Index = () => {
                 <ul className="space-y-2 text-xs sm:text-sm md:text-base text-muted-foreground">
                   <li className="flex items-start">
                     <span className="mr-3 text-primary font-bold flex-shrink-0">•</span>
-                    <span>PMDD (Premenstrual Dysphoric Disorder)</span>
+                    <span>Anxiety Disorders</span>
                   </li>
                   <li className="flex items-start">
                     <span className="mr-3 text-primary font-bold flex-shrink-0">•</span>
-                    <span>Perinatal & postpartum mood and anxiety disorders</span>
+                    <span>ADD/ADHD</span>
                   </li>
                   <li className="flex items-start">
                     <span className="mr-3 text-primary font-bold flex-shrink-0">•</span>
-                    <span>Hormonal and perimenopausal mood changes</span>
+                    <span>Depression</span>
                   </li>
                   <li className="flex items-start">
                     <span className="mr-3 text-primary font-bold flex-shrink-0">•</span>
-                    <span>Birth trauma & traumatic delivery-related PTSD</span>
+                    <span>Maternal Mental Health</span>
                   </li>
                 </ul>
               </div>
@@ -474,19 +474,19 @@ const Index = () => {
                 <ul className="space-y-2 text-xs sm:text-sm md:text-base text-muted-foreground">
                   <li className="flex items-start">
                     <span className="mr-3 text-primary font-bold flex-shrink-0">•</span>
-                    <span>Pregnancy loss, miscarriage, & infertility-related distress</span>
+                    <span>Post-Traumatic Stress Disorder (PTSD)</span>
                   </li>
                   <li className="flex items-start">
                     <span className="mr-3 text-primary font-bold flex-shrink-0">•</span>
-                    <span>Maternal overwhelm & caregiver burnout</span>
+                    <span>Bipolar Disorder</span>
                   </li>
                   <li className="flex items-start">
                     <span className="mr-3 text-primary font-bold flex-shrink-0">•</span>
-                    <span>High-functioning anxiety in professional women</span>
+                    <span>Sleep Disorders</span>
                   </li>
                   <li className="flex items-start">
                     <span className="mr-3 text-primary font-bold flex-shrink-0">•</span>
-                    <span>Relationship stress & emotional overload</span>
+                    <span>Stress Management</span>
                   </li>
                 </ul>
               </div>
@@ -494,7 +494,7 @@ const Index = () => {
 
             <div className="mt-8 md:mt-10 bg-blue-50 border-l-4 border-primary p-4 sm:p-5 md:p-6 rounded">
               <p className="text-xs sm:text-sm md:text-base text-muted-foreground leading-relaxed">
-                These experiences are often misunderstood or overlooked—our care is designed to meet you with compassion, dignity, and faith-sensitive understanding. You will always feel heard, supported, and empowered—never rushed or judged.
+                I provide kind and nonjudgmental, fast-focused care from the comfort of your home. My approach integrates evidence-based techniques to help you achieve lasting change. I believe in meeting you exactly where you are, using a whole-person approach that addresses not just symptoms but the root causes.
               </p>
             </div>
           </div>
@@ -564,28 +564,28 @@ const Index = () => {
               <CardContent className="p-4 sm:p-6 md:p-8">
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-6 md:gap-8">
                   <div>
-                    <h3 className="font-heading font-semibold text-lg md:text-xl mb-4">Serene Minds Wellness</h3>
+                    <h3 className="font-heading font-semibold text-lg md:text-xl mb-4">WillMind Mental Health</h3>
                     <div className="space-y-3 text-xs sm:text-sm md:text-base text-muted-foreground">
-                      <p><strong>In-Person Location:</strong></p>
-                      <p>580 Lexington Green Lane<br />Sanford, Florida 32771<br /></p>
+                      <p><strong>Location:</strong></p>
+                      <p>Austin, Texas 78759<br />Online Only<br /></p>
                       <p>
-                        <strong>Phone:</strong> <a href="tel:4076937055" className="hover:text-primary transition-colors">(407) 693-7055</a>
+                        <strong>Phone:</strong> <a href="tel:5125991462" className="hover:text-primary transition-colors">(512) 599-1462</a>
                       </p>
                       <p>
-                        <strong>Email:</strong> <a href="mailto:patience@serenemindswellness.us" className="hover:text-primary transition-colors break-all">patience@serenemindswellness.us</a>
+                        <strong>Email:</strong> <a href="mailto:info@willmindmentalhealth.com" className="hover:text-primary transition-colors break-all">info@willmindmentalhealth.com</a>
                       </p>
                       <p>
-                        <strong>Service Area:</strong> Statewide Telehealth Available
+                        <strong>Service Area:</strong> Virtual Care in Texas
                       </p>
                     </div>
                   </div>
                   <div>
-                    <h3 className="font-heading font-semibold text-lg md:text-xl mb-4">Office Hours</h3>
+                    <h3 className="font-heading font-semibold text-lg md:text-xl mb-4">Availability</h3>
                     <div className="space-y-2 text-xs sm:text-sm md:text-base text-muted-foreground">
-                      <p>Monday - Friday: 9:00 AM - 5:00 PM</p>
-                      <p>Saturday: By Appointment</p>
-                      <p>Sunday: Closed</p>
-                      <p className="pt-2 text-xs italic">Call (407) 693-7055 for scheduling details</p>
+                      <p>Available Online Only</p>
+                      <p>Telehealth Appointments</p>
+                      <p>Accepting New Clients in Texas</p>
+                      <p className="pt-2 text-xs italic">Call (512) 599-1462 for scheduling details</p>
                     </div>
                   </div>
                 </div>
