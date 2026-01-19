@@ -136,11 +136,4 @@ All colors MUST be HSL.
     backface-visibility: hidden;
     perspective: 1000px;
   }
-
-  /* Ensure images render at native resolution */
-  img[src] {
-    max-width: 100%;
-    height: auto;
-    display: block;
-  }
 }
