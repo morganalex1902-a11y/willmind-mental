@@ -14,23 +14,27 @@ const ServicesDropdown = ({ servicesLinks }: { servicesLinks: Array<{ name: stri
   const [isOpen, setIsOpen] = useState(false);
 
   return (
-    <DropdownMenu open={isOpen} onOpenChange={setIsOpen}>
-      <DropdownMenuTrigger
-        className="text-sm font-medium transition-colors hover:text-primary text-foreground flex items-center gap-1"
-        onMouseEnter={() => setIsOpen(true)}
-      >
-        SERVICES <ChevronDown className="w-4 h-4" />
-      </DropdownMenuTrigger>
-      <DropdownMenuContent align="center" className="w-56" onMouseLeave={() => setIsOpen(false)} onMouseEnter={() => setIsOpen(true)}>
-        {servicesLinks.map((service) => (
-          <DropdownMenuItem key={service.path} asChild>
-            <Link to={service.path} className="cursor-pointer">
-              {service.name}
-            </Link>
-          </DropdownMenuItem>
-        ))}
-      </DropdownMenuContent>
-    </DropdownMenu>
+    <div
+      onMouseEnter={() => setIsOpen(true)}
+      onMouseLeave={() => setIsOpen(false)}
+    >
+      <DropdownMenu open={isOpen} onOpenChange={setIsOpen}>
+        <DropdownMenuTrigger
+          className="text-sm font-medium transition-colors hover:text-primary text-foreground flex items-center gap-1"
+        >
+          SERVICES <ChevronDown className="w-4 h-4" />
+        </DropdownMenuTrigger>
+        <DropdownMenuContent align="center" className="w-56">
+          {servicesLinks.map((service) => (
+            <DropdownMenuItem key={service.path} asChild>
+              <Link to={service.path} className="cursor-pointer">
+                {service.name}
+              </Link>
+            </DropdownMenuItem>
+          ))}
+        </DropdownMenuContent>
+      </DropdownMenu>
+    </div>
   );
 };
 
