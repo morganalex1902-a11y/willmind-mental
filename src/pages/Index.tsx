@@ -39,7 +39,7 @@ const Index = () => {
     {
       icon: Brain,
       title: "Anxiety",
-      image: "https://images.unsplash.com/photo-1532286682806-34f3a5ff4302?w=400&h=300&fit=crop",
+      image: "https://cdn.builder.io/api/v1/image/assets%2F8b84be17aad14310b285d25f23a3235d%2Fdb075835d29a449ca7f04c41d5d31e5f?format=webp&width=800",
       description: "Anxiety disorders affect millions of people and can significantly impact daily life. Our comprehensive anxiety treatment includes cognitive-behavioral therapy (CBT), medication management, and evidence-based interventions to help you manage symptoms and regain control.",
       details: [
         "Generalized Anxiety Disorder (GAD)",
@@ -53,7 +53,7 @@ const Index = () => {
     {
       icon: Heart,
       title: "Depression",
-      image: "https://images.unsplash.com/photo-1544716278-ca5e3af4abd8?w=400&h=300&fit=crop",
+      image: "https://cdn.builder.io/api/v1/image/assets%2F8b84be17aad14310b285d25f23a3235d%2Fc6a9ac09644b4efe8c33f8ec8fdf3615?format=webp&width=800",
       description: "Depression is a serious medical condition that requires professional treatment. We provide compassionate, evidence-based care including therapy, medication management, and support to help you find hope and restore joy to your life.",
       details: [
         "Major Depressive Disorder",
@@ -67,7 +67,7 @@ const Index = () => {
     {
       icon: Users,
       title: "Phobias",
-      image: "https://images.unsplash.com/photo-1517694712202-14dd9538aa97?w=400&h=300&fit=crop",
+      image: "https://cdn.builder.io/api/v1/image/assets%2F8b84be17aad14310b285d25f23a3235d%2Fb6aabe7c254f4bfbab45a3622c15d855?format=webp&width=800",
       description: "Phobias are intense, irrational fears that can limit your life. Our specialized treatment uses exposure therapy, behavioral techniques, and medication when appropriate to help you overcome your fears and live freely.",
       details: [
         "Specific Phobias assessment and treatment",
@@ -81,7 +81,7 @@ const Index = () => {
     {
       icon: ShieldCheck,
       title: "PTSD",
-      image: "https://images.unsplash.com/photo-1511737804438-1c67112a2105?w=400&h=300&fit=crop",
+      image: "https://cdn.builder.io/api/v1/image/assets%2F8b84be17aad14310b285d25f23a3235d%2F7d5ed89b01104158804a3c1d2878c137?format=webp&width=800",
       description: "Post-Traumatic Stress Disorder (PTSD) can develop after experiencing or witnessing traumatic events. We offer trauma-informed care including evidence-based therapies like EMDR and CPT, combined with medication management when needed.",
       details: [
         "Trauma-informed care approach",
@@ -95,7 +95,7 @@ const Index = () => {
     {
       icon: Stethoscope,
       title: "OCD",
-      image: "https://images.unsplash.com/photo-1516307365135-cf6e06f49e38?w=400&h=300&fit=crop",
+      image: "https://cdn.builder.io/api/v1/image/assets%2F8b84be17aad14310b285d25f23a3235d%2F89e5597d636346d3b20cdb9a7eb2e9e9?format=webp&width=800",
       description: "Obsessive-Compulsive Disorder involves intrusive thoughts and repetitive behaviors. Our specialized OCD treatment includes Exposure and Response Prevention (ERP) therapy and medication management to help break the OCD cycle.",
       details: [
         "Comprehensive OCD assessment",
@@ -109,7 +109,7 @@ const Index = () => {
     {
       icon: Lightbulb,
       title: "ADHD/ADD",
-      image: "https://images.unsplash.com/photo-1517694712202-14dd9538aa97?w=400&h=300&fit=crop",
+      image: "https://cdn.builder.io/api/v1/image/assets%2F8b84be17aad14310b285d25f23a3235d%2Fb762263c8ff2455ca2541e2d30a19c5b?format=webp&width=800",
       description: "ADHD/ADD can impact focus, organization, and relationships. We provide comprehensive evaluation and treatment including medication management, behavioral strategies, and coaching to help you reach your potential.",
       details: [
         "Adult ADHD evaluation and diagnosis",
@@ -123,7 +123,7 @@ const Index = () => {
     {
       icon: Brain,
       title: "Bipolar Disorders",
-      image: "https://images.unsplash.com/photo-1527689368864-3a821dbccc34?w=400&h=300&fit=crop",
+      image: "https://cdn.builder.io/api/v1/image/assets%2F8b84be17aad14310b285d25f23a3235d%2F334ac2ed3ee24930b494249abcad2809?format=webp&width=800",
       description: "Bipolar disorder involves extreme mood swings between depression and mania. Our integrated approach includes mood stabilizing medications, therapy, and lifestyle management to help you achieve stability and wellness.",
       details: [
         "Bipolar I and Bipolar II Disorder treatment",
@@ -137,7 +137,7 @@ const Index = () => {
     {
       icon: Heart,
       title: "Eating Disorders",
-      image: "https://images.unsplash.com/photo-1576091160550-112173f7b090?w=400&h=300&fit=crop",
+      image: "https://cdn.builder.io/api/v1/image/assets%2F8b84be17aad14310b285d25f23a3235d%2Fa47e62bf9fe84f14be8f79b5652064aa?format=webp&width=800",
       description: "Eating disorders are serious mental health conditions requiring specialized care. We provide compassionate, evidence-based treatment including therapy, nutrition support, and medical monitoring for recovery.",
       details: [
         "Anorexia Nervosa treatment",
@@ -151,7 +151,7 @@ const Index = () => {
     {
       icon: Users,
       title: "Preceptorship for PMHNP Students",
-      image: "https://images.unsplash.com/photo-1576091160399-f2aaad00c5fe?w=400&h=300&fit=crop",
+      image: "https://cdn.builder.io/api/v1/image/assets%2F8b84be17aad14310b285d25f23a3235d%2F38318bfc4fb248a3b3b5eebe52d7cc90?format=webp&width=800",
       description: "We are proud to offer clinical preceptorship opportunities for psychiatric mental health nurse practitioner (PMHNP) students. Our program provides comprehensive, hands-on training in psychiatric evaluation, medication management, psychotherapy, and faith-informed care.",
       details: [
         "Comprehensive clinical training",
@@ -167,7 +167,7 @@ const Index = () => {
     {
       icon: ShieldCheck,
       title: "Surgical Clearance Evaluations",
-      image: "https://images.unsplash.com/photo-1511737804438-1c67112a2105?w=400&h=300&fit=crop",
+      image: "https://cdn.builder.io/api/v1/image/assets%2F8b84be17aad14310b285d25f23a3235d%2Fd57dd6e23a23450b993707e30e18ec4c?format=webp&width=800",
       description: "Before undergoing surgery, many patients require psychiatric clearance to ensure they are mentally and emotionally ready for the procedure. Our comprehensive surgical clearance evaluations assess your mental health status, medications, coping abilities, and support systems.",
       details: [
         "Comprehensive mental health assessment",
@@ -183,7 +183,7 @@ const Index = () => {
     {
       icon: Brain,
       title: "Insomnia & Sleep Disorders",
-      image: "https://images.unsplash.com/photo-1517694712202-14dd9538aa97?w=400&h=300&fit=crop",
+      image: "https://cdn.builder.io/api/v1/image/assets%2F8b84be17aad14310b285d25f23a3235d%2F746ef32d4e3a4bc3a7212d9113899bd5?format=webp&width=800",
       description: "Sleep is essential for physical health, emotional well-being, and cognitive function. Sleep disturbances can impact every aspect of your life. We provide comprehensive sleep disorder evaluation and treatment including sleep hygiene optimization, cognitive-behavioral therapy for insomnia (CBT-I), medication management, and lifestyle modifications to help you achieve restorative, quality sleep.",
       details: [
         "Comprehensive sleep assessment and evaluation",
