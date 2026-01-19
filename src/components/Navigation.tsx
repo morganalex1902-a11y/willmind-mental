@@ -156,13 +156,13 @@ const Navigation = () => {
               ))}
             </div>
             <div className="space-y-3 mt-4">
-              <a href="tel:4076937055" className="block">
+              <a href="tel:5125991462" className="block">
                 <Button
                   variant="outline"
                   className="w-full border-primary text-primary hover:bg-primary hover:text-primary-foreground"
                 >
                   <Phone className="w-4 h-4 mr-2" />
-                  +1 407-693-7055
+                  (512) 599-1462
                 </Button>
               </a>
               <Link to="/contact" onClick={() => setIsOpen(false)}>
