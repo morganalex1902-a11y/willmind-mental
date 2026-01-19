@@ -2,7 +2,7 @@ import { Link, useLocation } from "react-router-dom";
 import { Button } from "@/components/ui/button";
 import { Menu, X, Phone, ChevronDown } from "lucide-react";
 import { useState, useEffect } from "react";
-import logo from "@/assets/logo.png";
+const logo = "https://cdn.builder.io/api/v1/image/assets%2F8c5319227ec44fd9bdef2d63efcb9acb%2Ff0a52497499b4b638d5e432734eacbc6?format=webp&width=800";
 import {
   DropdownMenu,
   DropdownMenuContent,
@@ -54,7 +54,7 @@ const Navigation = () => {
           <Link to="/" className="group">
             <img
               src={logo}
-              alt="Serene Minds Wellness"
+              alt="WillMind Mental Health"
               className={`transition-all duration-300 group-hover:scale-105 ${isScrolled ? "h-12 w-12" : "h-20 w-20"}`}
             />
           </Link>
@@ -106,13 +106,13 @@ const Navigation = () => {
                 REQUEST APPOINTMENT
               </Button>
             </Link>
-            <a href="tel:4076937055">
+            <a href="tel:5125991462">
               <Button
                 variant="outline"
                 className="border-primary text-primary hover:bg-primary hover:text-primary-foreground"
               >
                 <Phone className="w-4 h-4 mr-2" />
-                +1 407-693-7055
+                (512) 599-1462
               </Button>
             </a>
           </div>
@@ -156,13 +156,13 @@ const Navigation = () => {
               ))}
             </div>
             <div className="space-y-3 mt-4">
-              <a href="tel:4076937055" className="block">
+              <a href="tel:5125991462" className="block">
                 <Button
                   variant="outline"
                   className="w-full border-primary text-primary hover:bg-primary hover:text-primary-foreground"
                 >
                   <Phone className="w-4 h-4 mr-2" />
-                  +1 407-693-7055
+                  (512) 599-1462
                 </Button>
               </a>
               <Link to="/contact" onClick={() => setIsOpen(false)}>

@@ -13,20 +13,20 @@ const Footer = () => {
               <div className="flex items-start gap-2">
                 <MapPin className="w-4 h-4 text-primary mt-1 flex-shrink-0" />
                 <p className="text-muted-foreground">
-                  580 Lexington Green Lane<br />
-                  Sanford, Florida 32771
+                  Austin, Texas 78759<br />
+                  Online Only
                 </p>
               </div>
               <div className="flex items-center gap-2">
                 <Phone className="w-4 h-4 text-primary flex-shrink-0" />
-                <a href="tel:555-123-4567" className="text-muted-foreground hover:text-primary transition-colors">
-                  (555) 123-4567
+                <a href="tel:5125991462" className="text-muted-foreground hover:text-primary transition-colors">
+                  (512) 599-1462
                 </a>
               </div>
               <div className="flex items-center gap-2">
                 <Mail className="w-4 h-4 text-primary flex-shrink-0" />
-                <a href="mailto:info@sereneminds.com" className="text-muted-foreground hover:text-primary transition-colors">
-                  info@sereneminds.com
+                <a href="mailto:info@willmindmentalhealth.com" className="text-muted-foreground hover:text-primary transition-colors">
+                  info@willmindmentalhealth.com
                 </a>
               </div>
             </div>
@@ -53,17 +53,17 @@ const Footer = () => {
 
           {/* Hours */}
           <div>
-            <h3 className="font-heading font-semibold text-lg mb-4">Office Hours</h3>
+            <h3 className="font-heading font-semibold text-lg mb-4">Availability</h3>
             <div className="space-y-2 text-sm text-muted-foreground">
-              <p>Monday - Friday: 9:00 AM - 5:00 PM</p>
-              <p>Saturday: 10:00 AM - 2:00 PM</p>
-              <p>Sunday: Closed</p>
+              <p>Online Only</p>
+              <p>Telehealth Appointments</p>
+              <p>Available by appointment</p>
             </div>
           </div>
         </div>
 
         <div className="mt-8 pt-8 border-t border-border text-center text-sm text-muted-foreground">
-          <p>&copy; {new Date().getFullYear()} Serene Minds Wellness. All rights reserved.</p>
+          <p>&copy; {new Date().getFullYear()} WillMind Mental Health. All rights reserved.</p>
           <p className="mt-2">
             <Link to="/privacy" className="hover:text-primary transition-colors">Privacy Policy</Link>
             {" · "}

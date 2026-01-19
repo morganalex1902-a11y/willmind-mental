@@ -12,7 +12,7 @@ const Insurance = () => {
             <div className="text-center mb-8 md:mb-12">
               <h1 className="text-2xl sm:text-3xl md:text-4xl font-heading font-bold mb-4 text-primary">Insurance & Booking</h1>
               <p className="text-sm sm:text-base md:text-lg text-muted-foreground max-w-2xl mx-auto">
-                We accept most insurances. Verify your coverage easily and book your appointment through GrowTherapy.
+                I accept most major insurance plans. Verify your coverage easily and book your appointment through GrowTherapy.
               </p>
             </div>
 
@@ -79,7 +79,7 @@ const Insurance = () => {
                   <h2 className="text-lg sm:text-xl md:text-2xl font-heading font-bold text-primary mb-4">Insurance Coverage</h2>
                   <div className="space-y-4">
                     <p className="text-xs sm:text-sm md:text-base text-muted-foreground leading-relaxed">
-                      Serene Minds Wellness accepts most major insurance providers. Through GrowTherapy, you can quickly check if your insurance is accepted and see your coverage details in real-time.
+                      WillMind Mental Health accepts most major insurance providers. Through GrowTherapy, you can quickly check if your insurance is accepted and see your coverage details in real-time.
                     </p>
                     <div className="bg-blue-50 border-l-4 border-primary p-4 rounded">
                       <h3 className="font-semibold text-sm md:text-base text-foreground mb-2">What You'll Discover on GrowTherapy:</h3>
@@ -111,19 +111,19 @@ const Insurance = () => {
                 <CardContent className="p-6 sm:p-8">
                   <h2 className="text-lg sm:text-xl md:text-2xl font-heading font-bold text-primary mb-4">Need Help?</h2>
                   <p className="text-xs sm:text-sm md:text-base text-muted-foreground mb-6 leading-relaxed">
-                    If you prefer to speak with our team directly about your insurance coverage or have questions, we're happy to help.
+                    If you prefer to speak with me directly about your insurance coverage or have questions, I'm happy to help.
                   </p>
                   <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
                     <div className="space-y-2">
                       <h3 className="font-semibold text-sm md:text-base text-foreground">Phone</h3>
-                      <a href="tel:4076937055" className="text-primary hover:text-primary/80 transition-colors font-medium text-sm md:text-base">
-                        (407) 693-7055
+                      <a href="tel:5125991462" className="text-primary hover:text-primary/80 transition-colors font-medium text-sm md:text-base">
+                        (512) 599-1462
                       </a>
                     </div>
                     <div className="space-y-2">
                       <h3 className="font-semibold text-sm md:text-base text-foreground">Email</h3>
-                      <a href="mailto:patience@serenemindswellness.us" className="text-primary hover:text-primary/80 transition-colors font-medium text-sm md:text-base break-all">
-                        patience@serenemindswellness.us
+                      <a href="mailto:info@willmindmentalhealth.com" className="text-primary hover:text-primary/80 transition-colors font-medium text-sm md:text-base break-all">
+                        info@willmindmentalhealth.com
                       </a>
                     </div>
                   </div>

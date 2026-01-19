@@ -39,7 +39,7 @@ const Index = () => {
     {
       icon: Brain,
       title: "Anxiety",
-      image: "https://images.unsplash.com/photo-1494253109108-2e30c049369b?w=400&h=300&fit=crop",
+      image: "https://images.unsplash.com/photo-1532286682806-34f3a5ff4302?w=400&h=300&fit=crop",
       description: "Anxiety disorders affect millions of people and can significantly impact daily life. Our comprehensive anxiety treatment includes cognitive-behavioral therapy (CBT), medication management, and evidence-based interventions to help you manage symptoms and regain control.",
       details: [
         "Generalized Anxiety Disorder (GAD)",
@@ -53,7 +53,7 @@ const Index = () => {
     {
       icon: Heart,
       title: "Depression",
-      image: "https://images.unsplash.com/photo-1488521787991-ed7bbaae773c?w=400&h=300&fit=crop",
+      image: "https://images.unsplash.com/photo-1544716278-ca5e3af4abd8?w=400&h=300&fit=crop",
       description: "Depression is a serious medical condition that requires professional treatment. We provide compassionate, evidence-based care including therapy, medication management, and support to help you find hope and restore joy to your life.",
       details: [
         "Major Depressive Disorder",
@@ -67,7 +67,7 @@ const Index = () => {
     {
       icon: Users,
       title: "Phobias",
-      image: "https://images.unsplash.com/photo-1516302752625-fcc3c50ae61f?w=400&h=300&fit=crop",
+      image: "https://images.unsplash.com/photo-1517694712202-14dd9538aa97?w=400&h=300&fit=crop",
       description: "Phobias are intense, irrational fears that can limit your life. Our specialized treatment uses exposure therapy, behavioral techniques, and medication when appropriate to help you overcome your fears and live freely.",
       details: [
         "Specific Phobias assessment and treatment",
@@ -81,7 +81,7 @@ const Index = () => {
     {
       icon: ShieldCheck,
       title: "PTSD",
-      image: "https://images.unsplash.com/photo-1528459801416-a9e53bbf4e17?w=400&h=300&fit=crop",
+      image: "https://images.unsplash.com/photo-1511737804438-1c67112a2105?w=400&h=300&fit=crop",
       description: "Post-Traumatic Stress Disorder (PTSD) can develop after experiencing or witnessing traumatic events. We offer trauma-informed care including evidence-based therapies like EMDR and CPT, combined with medication management when needed.",
       details: [
         "Trauma-informed care approach",
@@ -95,7 +95,7 @@ const Index = () => {
     {
       icon: Stethoscope,
       title: "OCD",
-      image: "https://images.unsplash.com/photo-1559757175-5700dde675bc?w=400&h=300&fit=crop",
+      image: "https://images.unsplash.com/photo-1516307365135-cf6e06f49e38?w=400&h=300&fit=crop",
       description: "Obsessive-Compulsive Disorder involves intrusive thoughts and repetitive behaviors. Our specialized OCD treatment includes Exposure and Response Prevention (ERP) therapy and medication management to help break the OCD cycle.",
       details: [
         "Comprehensive OCD assessment",
@@ -109,7 +109,7 @@ const Index = () => {
     {
       icon: Lightbulb,
       title: "ADHD/ADD",
-      image: "https://images.unsplash.com/photo-1527689368864-3a821dbccc34?w=400&h=300&fit=crop",
+      image: "https://images.unsplash.com/photo-1517694712202-14dd9538aa97?w=400&h=300&fit=crop",
       description: "ADHD/ADD can impact focus, organization, and relationships. We provide comprehensive evaluation and treatment including medication management, behavioral strategies, and coaching to help you reach your potential.",
       details: [
         "Adult ADHD evaluation and diagnosis",
@@ -123,7 +123,7 @@ const Index = () => {
     {
       icon: Brain,
       title: "Bipolar Disorders",
-      image: "https://images.unsplash.com/photo-1615391254190-46c1ee8e6b4a?w=400&h=300&fit=crop",
+      image: "https://images.unsplash.com/photo-1527689368864-3a821dbccc34?w=400&h=300&fit=crop",
       description: "Bipolar disorder involves extreme mood swings between depression and mania. Our integrated approach includes mood stabilizing medications, therapy, and lifestyle management to help you achieve stability and wellness.",
       details: [
         "Bipolar I and Bipolar II Disorder treatment",
@@ -137,7 +137,7 @@ const Index = () => {
     {
       icon: Heart,
       title: "Eating Disorders",
-      image: "https://images.unsplash.com/photo-1490645935967-10de6ba17061?w=400&h=300&fit=crop",
+      image: "https://images.unsplash.com/photo-1576091160550-112173f7b090?w=400&h=300&fit=crop",
       description: "Eating disorders are serious mental health conditions requiring specialized care. We provide compassionate, evidence-based treatment including therapy, nutrition support, and medical monitoring for recovery.",
       details: [
         "Anorexia Nervosa treatment",
@@ -151,7 +151,7 @@ const Index = () => {
     {
       icon: Users,
       title: "Preceptorship for PMHNP Students",
-      image: "https://images.unsplash.com/photo-1576091160550-112173f7b090?w=400&h=300&fit=crop",
+      image: "https://images.unsplash.com/photo-1576091160399-f2aaad00c5fe?w=400&h=300&fit=crop",
       description: "We are proud to offer clinical preceptorship opportunities for psychiatric mental health nurse practitioner (PMHNP) students. Our program provides comprehensive, hands-on training in psychiatric evaluation, medication management, psychotherapy, and faith-informed care.",
       details: [
         "Comprehensive clinical training",
@@ -167,7 +167,7 @@ const Index = () => {
     {
       icon: ShieldCheck,
       title: "Surgical Clearance Evaluations",
-      image: "https://images.unsplash.com/photo-1576091160399-f2aaad00c5fe?w=400&h=300&fit=crop",
+      image: "https://images.unsplash.com/photo-1511737804438-1c67112a2105?w=400&h=300&fit=crop",
       description: "Before undergoing surgery, many patients require psychiatric clearance to ensure they are mentally and emotionally ready for the procedure. Our comprehensive surgical clearance evaluations assess your mental health status, medications, coping abilities, and support systems.",
       details: [
         "Comprehensive mental health assessment",
@@ -183,7 +183,7 @@ const Index = () => {
     {
       icon: Brain,
       title: "Insomnia & Sleep Disorders",
-      image: "https://images.unsplash.com/photo-1541961017774-22349e4a1262?w=400&h=300&fit=crop",
+      image: "https://images.unsplash.com/photo-1517694712202-14dd9538aa97?w=400&h=300&fit=crop",
       description: "Sleep is essential for physical health, emotional well-being, and cognitive function. Sleep disturbances can impact every aspect of your life. We provide comprehensive sleep disorder evaluation and treatment including sleep hygiene optimization, cognitive-behavioral therapy for insomnia (CBT-I), medication management, and lifestyle modifications to help you achieve restorative, quality sleep.",
       details: [
         "Comprehensive sleep assessment and evaluation",
@@ -233,53 +233,44 @@ const Index = () => {
         <div className="w-full max-w-[1200px] px-4 md:px-6 lg:px-8">
           <div className="mb-8 md:mb-12 text-center">
             <h2 className="text-2xl sm:text-3xl md:text-4xl font-heading font-bold mb-4 text-primary border-b-4 border-primary pb-2 inline-block">
-              About Serene Minds Wellness
+              About WillMind Mental Health
             </h2>
             <p className="text-sm sm:text-base md:text-lg text-muted-foreground max-w-3xl mx-auto mt-4">
-              Faith, Balance, and Healing — Integrated Psychiatry for Women, Teens, and Adults
+              Compassionate, Evidence-Based Psychiatric Care with a Warm and Patient-Centered Approach
             </p>
           </div>
 
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-6 md:gap-8 max-w-6xl mx-auto mb-12 md:mb-16 items-start lg:items-center">
             <div className="space-y-0">
-              <Card className="rounded-none border-0 bg-[#71BEC2] text-left hover:shadow-none transition-shadow">
+              <Card className="rounded-none border-0 bg-primary text-left hover:shadow-none transition-shadow">
                 <CardContent className="p-4 sm:p-6 md:p-8">
-                  <div className="flex items-start gap-3">
-                    <img src="https://cdn.builder.io/api/v1/image/assets%2F7f3a261a364e4e158e176b65dc7b168f%2Fec749a71b7d8459c8317140f64e85c26?format=webp&width=800" alt="Comprehensive Psychiatric Evaluation" className="w-7 h-7 sm:w-8 sm:h-8 text-white flex-shrink-0 mt-1" />
-                    <div>
-                      <h3 className="font-heading font-semibold text-lg sm:text-xl mb-2 sm:mb-3 text-white">Comprehensive Psychiatric Evaluation</h3>
-                      <p className="text-sm sm:text-base text-white leading-relaxed">
-                        Thorough assessments to understand the biological, psychological, environmental, and spiritual factors shaping your mental health. We develop personalized treatment plans tailored to your unique needs and values.
-                      </p>
-                    </div>
+                  <div>
+                    <h3 className="font-heading font-semibold text-lg sm:text-xl mb-2 sm:mb-3 text-white">Comprehensive Psychiatric Evaluation</h3>
+                    <p className="text-sm sm:text-base text-white leading-relaxed">
+                      Thorough assessments to understand the biological, psychological, environmental, and spiritual factors shaping your mental health. We develop personalized treatment plans tailored to your unique needs and values.
+                    </p>
                   </div>
                 </CardContent>
               </Card>
 
-              <Card className="rounded-none border-0 bg-[#71BEC2] text-left hover:shadow-none transition-shadow">
+              <Card className="rounded-none border-0 bg-primary text-left hover:shadow-none transition-shadow">
                 <CardContent className="p-4 sm:p-6 md:p-8">
-                  <div className="flex items-start gap-3">
-                    <img src="https://cdn.builder.io/api/v1/image/assets%2F7f3a261a364e4e158e176b65dc7b168f%2Fa45482b93538450eb801ef94ae9ba95b?format=webp&width=800" alt="Medication Management" className="w-7 h-7 sm:w-8 sm:h-8 text-white flex-shrink-0 mt-1" />
-                    <div>
-                      <h3 className="font-heading font-semibold text-lg sm:text-xl mb-2 sm:mb-3 text-white">Medication Management</h3>
-                      <p className="text-sm sm:text-base text-white leading-relaxed">
-                        Expert psychiatric medication management with close follow-up and education. We optimize medications for your specific condition while monitoring for side effects and ensuring the best possible outcomes.
-                      </p>
-                    </div>
+                  <div>
+                    <h3 className="font-heading font-semibold text-lg sm:text-xl mb-2 sm:mb-3 text-white">Medication Management</h3>
+                    <p className="text-sm sm:text-base text-white leading-relaxed">
+                      Expert psychiatric medication management with close follow-up and education. We optimize medications for your specific condition while monitoring for side effects and ensuring the best possible outcomes.
+                    </p>
                   </div>
                 </CardContent>
               </Card>
 
-              <Card className="rounded-none border-0 bg-[#71BEC2] text-left hover:shadow-none transition-shadow">
+              <Card className="rounded-none border-0 bg-primary text-left hover:shadow-none transition-shadow">
                 <CardContent className="p-4 sm:p-6 md:p-8">
-                  <div className="flex items-start gap-3">
-                    <img src="https://cdn.builder.io/api/v1/image/assets%2F7f3a261a364e4e158e176b65dc7b168f%2F78f4f8b597954100b31110cb5fb8db39?format=webp&width=800" alt="Integrated Care" className="w-7 h-7 sm:w-8 sm:h-8 text-white flex-shrink-0 mt-1" />
-                    <div>
-                      <h3 className="font-heading font-semibold text-lg sm:text-xl mb-2 sm:mb-3 text-white">Faith-Informed Integrated Care</h3>
-                      <p className="text-sm sm:text-base text-white leading-relaxed">
-                        Collaboration with therapists, medical providers, OB-GYNs, specialists, families, and support teams. We also integrate faith-based and lifestyle-based interventions including sleep optimization, nutrition, mindfulness, and stress support for whole-person healing.
-                      </p>
-                    </div>
+                  <div>
+                    <h3 className="font-heading font-semibold text-lg sm:text-xl mb-2 sm:mb-3 text-white">Faith-Informed Integrated Care</h3>
+                    <p className="text-sm sm:text-base text-white leading-relaxed">
+                      Collaboration with therapists, medical providers, OB-GYNs, specialists, families, and support teams. We also integrate faith-based and lifestyle-based interventions including sleep optimization, nutrition, mindfulness, and stress support for whole-person healing.
+                    </p>
                   </div>
                 </CardContent>
               </Card>
@@ -288,15 +279,15 @@ const Index = () => {
             <div className="space-y-4 md:space-y-6">
               <div className="relative w-full flex items-center justify-center rounded-lg overflow-hidden min-h-[300px] sm:min-h-[350px] md:min-h-[400px]">
                 <img
-                  src="https://cdn.builder.io/api/v1/image/assets%2F7f3a261a364e4e158e176b65dc7b168f%2Faa358ae578d64fd18f07f1b1c7dd9cc1?format=webp&width=800"
-                  alt="Our services"
+                  src="https://cdn.builder.io/api/v1/image/assets%2F8c5319227ec44fd9bdef2d63efcb9acb%2F0854667eb6364130ac305c6e07c7cade?format=webp&width=800"
+                  alt="Tayo Maduagwu, PMHNP-BC"
                   className="w-full h-full object-cover rounded-lg"
                 />
               </div>
               <div className="bg-blue-50 border-l-4 border-primary p-4 sm:p-5 md:p-6 rounded">
-                <h3 className="font-heading font-semibold text-base sm:text-lg mb-2 text-primary">Founded by Patience Amune, APRN, PMHNP-BC</h3>
+                <h3 className="font-heading font-semibold text-base sm:text-lg mb-2 text-primary">Meet Tayo Maduagwu, MSN, APRN, PMHNP-BC</h3>
                 <p className="text-xs sm:text-sm md:text-base text-muted-foreground leading-relaxed">
-                  A board-certified psychiatric mental health nurse practitioner dedicated to whole-person healing. Patience blends psychiatric expertise, supportive therapy, lifestyle guidance, and faith-informed care to provide personalized, evidence-based treatment.
+                  A board-certified Psychiatric Mental Health Nurse Practitioner dedicated to helping adults feel emotionally supported, understood, and empowered. Tayo provides compassionate, evidence-based mental health care with a warm and patient-centered approach. With a holistic perspective, Tayo blends medication management with supportive therapy to help you achieve lasting wellness.
                 </p>
               </div>
             </div>
@@ -308,7 +299,7 @@ const Index = () => {
       <section className="py-12 md:py-16 lg:py-20 bg-white/95 flex justify-center">
         <div className="w-full max-w-[1200px] px-4 md:px-6 lg:px-8">
           <div className="mb-8 md:mb-12 text-center">
-            <h2 className="text-2xl sm:text-3xl md:text-4xl font-heading font-bold text-center mb-4 text-white bg-[#609da0] py-4 sm:py-5 md:py-6 rounded-lg">
+            <h2 className="text-2xl sm:text-3xl md:text-4xl font-heading font-bold text-center mb-4 text-white bg-primary py-4 sm:py-5 md:py-6 rounded-lg">
               Our Services
             </h2>
             <p className="text-xs sm:text-sm md:text-base lg:text-lg text-muted-foreground max-w-3xl mx-auto mt-4 leading-relaxed">
@@ -322,17 +313,9 @@ const Index = () => {
                   <img
                     src={service.image}
                     alt={service.title}
-                    className="w-full h-full object-cover group-hover:blur-sm transition-all duration-300"
+                    className="w-full h-full object-cover transition-all duration-300"
                   />
-                  <div className="absolute inset-0 bg-primary/40 group-hover:bg-primary/60 transition-colors duration-300" />
-                  <div className="absolute inset-0 flex items-center justify-center group-hover:opacity-0 transition-opacity duration-300">
-                    <service.icon className="w-8 sm:w-10 md:w-12 h-8 sm:h-10 md:h-12 text-white" />
-                  </div>
-                  <div className="absolute inset-0 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300">
-                    <Button size="sm" className="bg-white text-primary hover:bg-white/90 text-xs sm:text-sm">
-                      Learn More
-                    </Button>
-                  </div>
+                  <div className="absolute inset-0 bg-primary/40 transition-colors duration-300" />
                 </div>
                 <CardContent className="p-3 sm:p-4 text-center">
                   <h3 className="font-heading font-semibold text-sm sm:text-base group-hover:text-primary transition-all line-clamp-2">{service.title}</h3>
@@ -410,24 +393,24 @@ const Index = () => {
               />
             </div>
             <div className="text-white">
-              <h2 className="text-2xl sm:text-3xl md:text-4xl font-heading font-bold mb-4 md:mb-6">Our Mission & Commitment</h2>
+              <h2 className="text-2xl sm:text-3xl md:text-4xl font-heading font-bold mb-4 md:mb-6">My Approach to Care</h2>
               <div className="space-y-4 md:space-y-6">
                 <div>
-                  <h3 className="text-lg sm:text-xl font-semibold mb-2">Whole-Person Healing</h3>
+                  <h3 className="text-lg sm:text-xl font-semibold mb-2">Supportive & Empathetic Care</h3>
                   <p className="text-sm sm:text-base lg:text-lg leading-relaxed">
-                    At Serene Minds Wellness, we are dedicated to providing compassionate, evidence-based psychiatric care that blends expert medication management with holistic healing strategies. We believe that true healing addresses the mind, body, and spirit.
+                    I believe in a supportive, empathetic, and collaborative approach. I take the time to truly listen and understand what you're experiencing, so you feel supported and never rushed. Together, we explore your symptoms, your goals, and what wellness means to you.
                   </p>
                 </div>
                 <div>
-                  <h3 className="text-lg sm:text-xl font-semibold mb-2">Accessible Care</h3>
+                  <h3 className="text-lg sm:text-xl font-semibold mb-2">Virtual Care in Texas</h3>
                   <p className="text-sm sm:text-base lg:text-lg leading-relaxed">
-                    We serve women, adolescent girls, and adults throughout Florida through secure telehealth services and offer in-person appointments in Sanford, FL. Quality mental health care should be accessible to everyone, regardless of location or circumstances.
+                    I provide comprehensive virtual psychiatric services to adults in Texas. Through secure telehealth appointments, you get access to professional mental health care from the comfort and privacy of your home. Quality mental health care should be accessible to everyone.
                   </p>
                 </div>
                 <div>
-                  <h3 className="text-lg sm:text-xl font-semibold mb-2">Lasting Wellness</h3>
+                  <h3 className="text-lg sm:text-xl font-semibold mb-2">Your Journey Matters</h3>
                   <p className="text-sm sm:text-base lg:text-lg leading-relaxed">
-                    Our approach integrates mindfulness, lifestyle modifications, nutritional support, stress management, spiritual practices, and supportive education to promote lasting emotional wellness and help you achieve your mental health goals.
+                    No matter where you are in your journey, we will work together with clarity, empathy, and hope. I provide evidence-based treatments including medication management, cognitive-behavioral therapy (CBT), and other proven therapeutic approaches tailored to your unique needs.
                   </p>
                 </div>
               </div>
@@ -441,10 +424,10 @@ const Index = () => {
         <div className="w-full max-w-[1200px] px-4 md:px-6 lg:px-8">
           <div className="mb-8 md:mb-12 text-center">
             <h2 className="text-2xl sm:text-3xl md:text-4xl font-heading font-bold mb-4 text-primary">
-              Women's Mental Health Specialties
+              Top Specialties
             </h2>
             <p className="text-sm sm:text-base md:text-lg text-muted-foreground max-w-3xl mx-auto">
-              We proudly support women navigating unique hormonal and life transitions with compassionate, dignity-centered care.
+              I specialize in treating these conditions with evidence-based, compassionate care.
             </p>
           </div>
 
@@ -454,19 +437,19 @@ const Index = () => {
                 <ul className="space-y-2 text-xs sm:text-sm md:text-base text-muted-foreground">
                   <li className="flex items-start">
                     <span className="mr-3 text-primary font-bold flex-shrink-0">•</span>
-                    <span>PMDD (Premenstrual Dysphoric Disorder)</span>
+                    <span>Anxiety Disorders</span>
                   </li>
                   <li className="flex items-start">
                     <span className="mr-3 text-primary font-bold flex-shrink-0">•</span>
-                    <span>Perinatal & postpartum mood and anxiety disorders</span>
+                    <span>ADD/ADHD</span>
                   </li>
                   <li className="flex items-start">
                     <span className="mr-3 text-primary font-bold flex-shrink-0">•</span>
-                    <span>Hormonal and perimenopausal mood changes</span>
+                    <span>Depression</span>
                   </li>
                   <li className="flex items-start">
                     <span className="mr-3 text-primary font-bold flex-shrink-0">•</span>
-                    <span>Birth trauma & traumatic delivery-related PTSD</span>
+                    <span>Maternal Mental Health</span>
                   </li>
                 </ul>
               </div>
@@ -474,19 +457,19 @@ const Index = () => {
                 <ul className="space-y-2 text-xs sm:text-sm md:text-base text-muted-foreground">
                   <li className="flex items-start">
                     <span className="mr-3 text-primary font-bold flex-shrink-0">•</span>
-                    <span>Pregnancy loss, miscarriage, & infertility-related distress</span>
+                    <span>Post-Traumatic Stress Disorder (PTSD)</span>
                   </li>
                   <li className="flex items-start">
                     <span className="mr-3 text-primary font-bold flex-shrink-0">•</span>
-                    <span>Maternal overwhelm & caregiver burnout</span>
+                    <span>Bipolar Disorder</span>
                   </li>
                   <li className="flex items-start">
                     <span className="mr-3 text-primary font-bold flex-shrink-0">•</span>
-                    <span>High-functioning anxiety in professional women</span>
+                    <span>Sleep Disorders</span>
                   </li>
                   <li className="flex items-start">
                     <span className="mr-3 text-primary font-bold flex-shrink-0">•</span>
-                    <span>Relationship stress & emotional overload</span>
+                    <span>Stress Management</span>
                   </li>
                 </ul>
               </div>
@@ -494,7 +477,7 @@ const Index = () => {
 
             <div className="mt-8 md:mt-10 bg-blue-50 border-l-4 border-primary p-4 sm:p-5 md:p-6 rounded">
               <p className="text-xs sm:text-sm md:text-base text-muted-foreground leading-relaxed">
-                These experiences are often misunderstood or overlooked—our care is designed to meet you with compassion, dignity, and faith-sensitive understanding. You will always feel heard, supported, and empowered—never rushed or judged.
+                I provide kind and nonjudgmental, fast-focused care from the comfort of your home. My approach integrates evidence-based techniques to help you achieve lasting change. I believe in meeting you exactly where you are, using a whole-person approach that addresses not just symptoms but the root causes.
               </p>
             </div>
           </div>
@@ -564,28 +547,28 @@ const Index = () => {
               <CardContent className="p-4 sm:p-6 md:p-8">
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-6 md:gap-8">
                   <div>
-                    <h3 className="font-heading font-semibold text-lg md:text-xl mb-4">Serene Minds Wellness</h3>
+                    <h3 className="font-heading font-semibold text-lg md:text-xl mb-4">WillMind Mental Health</h3>
                     <div className="space-y-3 text-xs sm:text-sm md:text-base text-muted-foreground">
-                      <p><strong>In-Person Location:</strong></p>
-                      <p>580 Lexington Green Lane<br />Sanford, Florida 32771<br /></p>
+                      <p><strong>Location:</strong></p>
+                      <p>Austin, Texas 78759<br />Online Only<br /></p>
                       <p>
-                        <strong>Phone:</strong> <a href="tel:4076937055" className="hover:text-primary transition-colors">(407) 693-7055</a>
+                        <strong>Phone:</strong> <a href="tel:5125991462" className="hover:text-primary transition-colors">(512) 599-1462</a>
                       </p>
                       <p>
-                        <strong>Email:</strong> <a href="mailto:patience@serenemindswellness.us" className="hover:text-primary transition-colors break-all">patience@serenemindswellness.us</a>
+                        <strong>Email:</strong> <a href="mailto:info@willmindmentalhealth.com" className="hover:text-primary transition-colors break-all">info@willmindmentalhealth.com</a>
                       </p>
                       <p>
-                        <strong>Service Area:</strong> Statewide Telehealth Available
+                        <strong>Service Area:</strong> Virtual Care in Texas
                       </p>
                     </div>
                   </div>
                   <div>
-                    <h3 className="font-heading font-semibold text-lg md:text-xl mb-4">Office Hours</h3>
+                    <h3 className="font-heading font-semibold text-lg md:text-xl mb-4">Availability</h3>
                     <div className="space-y-2 text-xs sm:text-sm md:text-base text-muted-foreground">
-                      <p>Monday - Friday: 9:00 AM - 5:00 PM</p>
-                      <p>Saturday: By Appointment</p>
-                      <p>Sunday: Closed</p>
-                      <p className="pt-2 text-xs italic">Call (407) 693-7055 for scheduling details</p>
+                      <p>Available Online Only</p>
+                      <p>Telehealth Appointments</p>
+                      <p>Accepting New Clients in Texas</p>
+                      <p className="pt-2 text-xs italic">Call (512) 599-1462 for scheduling details</p>
                     </div>
                   </div>
                 </div>

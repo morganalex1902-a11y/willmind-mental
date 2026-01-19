@@ -17,30 +17,30 @@ All colors MUST be HSL.
     --popover: 0 0% 100%;
     --popover-foreground: 210 40% 15%;
 
-    --primary: 180 35% 50%;
+    --primary: 35 85% 55%;
     --primary-foreground: 0 0% 100%;
 
-    --secondary: 180 25% 92%;
-    --secondary-foreground: 180 35% 20%;
+    --secondary: 120 40% 50%;
+    --secondary-foreground: 0 0% 100%;
 
-    --muted: 180 10% 95%;
+    --muted: 35 20% 95%;
     --muted-foreground: 210 20% 45%;
 
-    --accent: 28 85% 65%;
+    --accent: 120 50% 45%;
     --accent-foreground: 0 0% 100%;
 
     --destructive: 0 84.2% 60.2%;
     --destructive-foreground: 0 0% 100%;
 
-    --border: 180 15% 88%;
-    --input: 180 15% 88%;
-    --ring: 180 35% 50%;
+    --border: 35 15% 88%;
+    --input: 35 15% 88%;
+    --ring: 35 85% 55%;
 
     --radius: 0.75rem;
-    
-    --hero-gradient: linear-gradient(135deg, hsl(180 40% 45%), hsl(180 30% 60%));
-    --section-bg: hsl(180 20% 97%);
-    --warm-accent: hsl(28 85% 65%);
+
+    --hero-gradient: linear-gradient(135deg, hsl(35 85% 55%), hsl(120 50% 45%));
+    --section-bg: hsl(35 20% 97%);
+    --warm-accent: hsl(35 85% 55%);
 
     --sidebar-background: 0 0% 98%;
 
@@ -69,28 +69,28 @@ All colors MUST be HSL.
     --popover: 210 40% 12%;
     --popover-foreground: 0 0% 98%;
 
-    --primary: 180 40% 55%;
+    --primary: 35 85% 55%;
     --primary-foreground: 0 0% 100%;
 
-    --secondary: 210 30% 18%;
-    --secondary-foreground: 0 0% 98%;
+    --secondary: 120 40% 50%;
+    --secondary-foreground: 0 0% 100%;
 
     --muted: 210 30% 18%;
     --muted-foreground: 210 20% 65%;
 
-    --accent: 28 85% 65%;
+    --accent: 120 50% 45%;
     --accent-foreground: 0 0% 100%;
 
     --destructive: 0 62.8% 50%;
     --destructive-foreground: 0 0% 100%;
 
-    --border: 210 30% 22%;
-    --input: 210 30% 22%;
-    --ring: 180 40% 55%;
-    
-    --hero-gradient: linear-gradient(135deg, hsl(180 40% 35%), hsl(180 30% 50%));
+    --border: 35 30% 22%;
+    --input: 35 30% 22%;
+    --ring: 35 85% 55%;
+
+    --hero-gradient: linear-gradient(135deg, hsl(35 85% 55%), hsl(120 50% 45%));
     --section-bg: hsl(210 40% 12%);
-    --warm-accent: hsl(28 85% 65%);
+    --warm-accent: hsl(35 85% 55%);
     --sidebar-background: 240 5.9% 10%;
     --sidebar-foreground: 240 4.8% 95.9%;
     --sidebar-primary: 224.3 76.3% 48%;
