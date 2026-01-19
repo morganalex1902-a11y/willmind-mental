@@ -53,11 +53,11 @@ const Footer = () => {
 
           {/* Hours */}
           <div>
-            <h3 className="font-heading font-semibold text-lg mb-4">Office Hours</h3>
+            <h3 className="font-heading font-semibold text-lg mb-4">Availability</h3>
             <div className="space-y-2 text-sm text-muted-foreground">
-              <p>Monday - Friday: 9:00 AM - 5:00 PM</p>
-              <p>Saturday: 10:00 AM - 2:00 PM</p>
-              <p>Sunday: Closed</p>
+              <p>Online Only</p>
+              <p>Telehealth Appointments</p>
+              <p>Available by appointment</p>
             </div>
           </div>
         </div>
