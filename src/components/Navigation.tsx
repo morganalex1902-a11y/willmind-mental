@@ -41,6 +41,8 @@ const Navigation = () => {
     { name: "ADHD/ADD", path: "/services#adhd" },
     { name: "Bipolar Disorders", path: "/services#bipolar" },
     { name: "Eating Disorders", path: "/services#eating" },
+    { name: "Preceptorship for PMHNP Students", path: "/services#preceptorship" },
+    { name: "Surgical Clearance Evaluations", path: "/services#surgical" },
     { name: "Insomnia & Sleep Disorders", path: "/services#insomnia" },
   ];
 
