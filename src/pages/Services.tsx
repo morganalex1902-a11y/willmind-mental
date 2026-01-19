@@ -15,7 +15,8 @@ const Services = () => {
   const navigate = useNavigate();
   const services = [
     {
-      title: "Anxiety Treatment",
+      title: "Anxiety",
+      image: "https://cdn.builder.io/api/v1/image/assets%2F8b84be17aad14310b285d25f23a3235d%2Fdb075835d29a449ca7f04c41d5d31e5f?format=webp&width=800",
       description: "Anxiety disorders affect millions of people and can significantly impact daily life. Our comprehensive anxiety treatment includes cognitive-behavioral therapy (CBT), medication management, and evidence-based interventions to help you manage symptoms and regain control.",
       details: [
         "Generalized Anxiety Disorder (GAD)",
@@ -23,104 +24,104 @@ const Services = () => {
         "Panic Disorder",
         "Specific Phobias",
         "Medication management and optimization",
-        "Coping strategies and lifestyle modifications",
-        "Mindfulness and relaxation techniques"
+        "Coping strategies and lifestyle modifications"
       ]
     },
     {
-      title: "Depression Care",
-      description: "Depression is a serious medical condition that requires professional treatment. We provide compassionate, evidence-based care including therapy, medication management, and support to help you find hope and restore joy to your life. Whether you're experiencing major depressive disorder, persistent depression, or seasonal mood changes, we're here to help.",
+      title: "Depression",
+      image: "https://cdn.builder.io/api/v1/image/assets%2F8b84be17aad14310b285d25f23a3235d%2Fc6a9ac09644b4efe8c33f8ec8fdf3615?format=webp&width=800",
+      description: "Depression is a serious medical condition that requires professional treatment. We provide compassionate, evidence-based care including therapy, medication management, and support to help you find hope and restore joy to your life.",
       details: [
         "Major Depressive Disorder",
         "Persistent Depressive Disorder (Dysthymia)",
         "Seasonal Affective Disorder",
         "Treatment-resistant depression",
         "Psychiatric medication management",
-        "Integrative therapy approaches",
-        "Lifestyle and nutritional support"
+        "Integrative therapy approaches"
       ]
     },
     {
-      title: "Medication Management",
-      description: "Expert psychiatric medication evaluation and ongoing management is at the core of our care. We provide thorough assessments to determine if medication is appropriate for you, select the right medication(s), and monitor your progress with close follow-up and education. Our approach emphasizes finding the right medication at the right dose with minimal side effects.",
+      title: "Phobias",
+      image: "https://cdn.builder.io/api/v1/image/assets%2F8b84be17aad14310b285d25f23a3235d%2Fb6aabe7c254f4bfbab45a3622c15d855?format=webp&width=800",
+      description: "Phobias are intense, irrational fears that can limit your life. Our specialized treatment uses exposure therapy, behavioral techniques, and medication when appropriate to help you overcome your fears and live freely.",
       details: [
-        "Comprehensive psychiatric evaluation",
-        "Medication selection and optimization",
-        "Close follow-up and monitoring",
-        "Patient education on medications",
-        "Side effect management",
-        "Drug interaction screening",
-        "Medication adjustments based on response"
+        "Specific Phobias assessment and treatment",
+        "Exposure therapy techniques",
+        "Agoraphobia management",
+        "Social anxiety and phobias",
+        "Gradual desensitization programs",
+        "Coping skills development"
       ]
     },
     {
-      title: "PTSD Support",
-      description: "Post-Traumatic Stress Disorder (PTSD) can develop after experiencing or witnessing traumatic events. We offer trauma-informed care including evidence-based therapies like EMDR and CPT, combined with medication management when needed. Our compassionate approach helps you process trauma and rebuild your sense of safety.",
+      title: "PTSD",
+      image: "https://cdn.builder.io/api/v1/image/assets%2F8b84be17aad14310b285d25f23a3235d%2F7d5ed89b01104158804a3c1d2878c137?format=webp&width=800",
+      description: "Post-Traumatic Stress Disorder (PTSD) can develop after experiencing or witnessing traumatic events. We offer trauma-informed care including evidence-based therapies like EMDR and CPT, combined with medication management when needed.",
       details: [
         "Trauma-informed care approach",
         "Cognitive Processing Therapy (CPT)",
         "Eye Movement Desensitization and Reprocessing (EMDR)",
         "Prolonged Exposure Therapy",
         "Crisis support and safety planning",
-        "Family and relationship support",
-        "Specialized trauma assessment"
+        "Family and relationship support"
       ]
     },
     {
-      title: "OCD Treatment",
-      description: "Obsessive-Compulsive Disorder involves intrusive thoughts and repetitive behaviors that can be exhausting and isolating. Our specialized OCD treatment includes Exposure and Response Prevention (ERP) therapy and medication management to help break the OCD cycle and restore your freedom.",
+      title: "OCD",
+      image: "https://cdn.builder.io/api/v1/image/assets%2F8b84be17aad14310b285d25f23a3235d%2F89e5597d636346d3b20cdb9a7eb2e9e9?format=webp&width=800",
+      description: "Obsessive-Compulsive Disorder involves intrusive thoughts and repetitive behaviors. Our specialized OCD treatment includes Exposure and Response Prevention (ERP) therapy and medication management to help break the OCD cycle.",
       details: [
         "Comprehensive OCD assessment",
         "Exposure and Response Prevention (ERP)",
         "Cognitive therapy for obsessions",
         "Medication optimization",
         "Specialized therapists trained in OCD treatment",
-        "Support for families and loved ones",
-        "Relapse prevention strategies"
+        "Support for families and loved ones"
       ]
     },
     {
-      title: "Bipolar Disorder",
-      description: "Bipolar disorder involves extreme mood swings between depression and mania that can affect your relationships, work, and overall quality of life. Our integrated approach includes mood stabilizing medications, therapy, and lifestyle management to help you achieve stability and wellness.",
-      details: [
-        "Bipolar I and Bipolar II Disorder treatment",
-        "Mood stabilizer medication management",
-        "Psychoeducation on triggers and patterns",
-        "Relapse prevention strategies",
-        "Sleep and routine optimization",
-        "Family-centered treatment planning",
-        "Lifestyle interventions"
-      ]
-    },
-    {
-      title: "ADHD/ADD Support",
-      description: "ADHD/ADD can impact focus, organization, time management, and relationships in both children and adults. We provide comprehensive evaluation and treatment including medication management, behavioral strategies, and coaching to help you reach your potential and thrive.",
+      title: "ADHD/ADD",
+      image: "https://cdn.builder.io/api/v1/image/assets%2F8b84be17aad14310b285d25f23a3235d%2Fb762263c8ff2455ca2541e2d30a19c5b?format=webp&width=800",
+      description: "ADHD/ADD can impact focus, organization, and relationships. We provide comprehensive evaluation and treatment including medication management, behavioral strategies, and coaching to help you reach your potential.",
       details: [
         "Adult ADHD evaluation and diagnosis",
         "Pediatric ADHD assessment",
         "Medication management and monitoring",
         "Executive function coaching",
         "Behavioral interventions",
-        "School and workplace accommodations support",
-        "Organizational and time management strategies"
+        "School and workplace accommodations support"
       ]
     },
     {
-      title: "Trauma & Grief Support",
-      description: "Life can bring unexpected losses, traumas, and major life transitions. Our supportive, faith-informed approach helps you process grief, trauma, and life stressors with compassion. We integrate therapy, medication when appropriate, and spiritual support for holistic healing.",
+      title: "Bipolar Disorders",
+      image: "https://cdn.builder.io/api/v1/image/assets%2F8b84be17aad14310b285d25f23a3235d%2F334ac2ed3ee24930b494249abcad2809?format=webp&width=800",
+      description: "Bipolar disorder involves extreme mood swings between depression and mania. Our integrated approach includes mood stabilizing medications, therapy, and lifestyle management to help you achieve stability and wellness.",
       details: [
-        "Grief counseling and support",
-        "Trauma processing and recovery",
-        "Life transition support",
-        "Faith-informed coping strategies",
-        "Family support and guidance",
-        "Crisis intervention",
-        "Complicated grief treatment"
+        "Bipolar I and Bipolar II Disorder treatment",
+        "Mood stabilizer medication management",
+        "Psychoeducation on triggers and patterns",
+        "Relapse prevention strategies",
+        "Sleep and routine optimization",
+        "Family-centered treatment planning"
+      ]
+    },
+    {
+      title: "Eating Disorders",
+      image: "https://cdn.builder.io/api/v1/image/assets%2F8b84be17aad14310b285d25f23a3235d%2Fa47e62bf9fe84f14be8f79b5652064aa?format=webp&width=800",
+      description: "Eating disorders are serious mental health conditions requiring specialized care. We provide compassionate, evidence-based treatment including therapy, nutrition support, and medical monitoring for recovery.",
+      details: [
+        "Anorexia Nervosa treatment",
+        "Bulimia Nervosa treatment",
+        "Binge Eating Disorder support",
+        "Avoidant/Restrictive Food Intake Disorder",
+        "Medical monitoring and medication",
+        "Nutritionist and therapy collaboration"
       ]
     },
     {
       title: "Preceptorship for PMHNP Students",
-      description: "We are proud to offer clinical preceptorship opportunities for psychiatric mental health nurse practitioner (PMHNP) students. Our program provides comprehensive, hands-on training in psychiatric evaluation, medication management, psychotherapy, and faith-informed care. Students work alongside our experienced practitioners to develop clinical skills and professional confidence.",
+      image: "https://cdn.builder.io/api/v1/image/assets%2F8b84be17aad14310b285d25f23a3235d%2F38318bfc4fb248a3b3b5eebe52d7cc90?format=webp&width=800",
+      description: "We are proud to offer clinical preceptorship opportunities for psychiatric mental health nurse practitioner (PMHNP) students. Our program provides comprehensive, hands-on training in psychiatric evaluation, medication management, psychotherapy, and faith-informed care.",
       details: [
         "Comprehensive clinical training",
         "Psychiatric evaluation and diagnosis skills",
@@ -133,22 +134,9 @@ const Services = () => {
       ]
     },
     {
-      title: "Insomnia & Sleep Disorders",
-      description: "Sleep is essential for physical health, emotional well-being, and cognitive function. Sleep disturbances can impact every aspect of your life, from work performance to relationships. We provide comprehensive sleep disorder evaluation and treatment including sleep hygiene optimization, cognitive-behavioral therapy for insomnia (CBT-I), medication management, and lifestyle modifications to help you achieve restorative, quality sleep.",
-      details: [
-        "Comprehensive sleep assessment and evaluation",
-        "Cognitive-Behavioral Therapy for Insomnia (CBT-I)",
-        "Sleep hygiene and routine optimization",
-        "Medication management for sleep disorders",
-        "Evaluation of underlying medical and psychiatric causes",
-        "Sleep apnea screening and referral when needed",
-        "Relaxation techniques and mindfulness for sleep",
-        "Lifestyle and nutritional modifications"
-      ]
-    },
-    {
-      title: "Evaluations for Surgical Clearance",
-      description: "Before undergoing surgery, many patients require psychiatric clearance to ensure they are mentally and emotionally ready for the procedure. Our comprehensive surgical clearance evaluations assess your mental health status, medications, coping abilities, and support systems to provide surgeons with the information they need.",
+      title: "Surgical Clearance Evaluations",
+      image: "https://cdn.builder.io/api/v1/image/assets%2F8b84be17aad14310b285d25f23a3235d%2Fd57dd6e23a23450b993707e30e18ec4c?format=webp&width=800",
+      description: "Before undergoing surgery, many patients require psychiatric clearance to ensure they are mentally and emotionally ready for the procedure. Our comprehensive surgical clearance evaluations assess your mental health status, medications, coping abilities, and support systems.",
       details: [
         "Comprehensive mental health assessment",
         "Medication review and optimization",
@@ -158,6 +146,21 @@ const Services = () => {
         "Clear documentation for surgical team",
         "Post-operative mental health planning",
         "Coordination with surgical and medical teams"
+      ]
+    },
+    {
+      title: "Insomnia & Sleep Disorders",
+      image: "https://cdn.builder.io/api/v1/image/assets%2F8b84be17aad14310b285d25f23a3235d%2F746ef32d4e3a4bc3a7212d9113899bd5?format=webp&width=800",
+      description: "Sleep is essential for physical health, emotional well-being, and cognitive function. Sleep disturbances can impact every aspect of your life. We provide comprehensive sleep disorder evaluation and treatment including sleep hygiene optimization, cognitive-behavioral therapy for insomnia (CBT-I), medication management, and lifestyle modifications to help you achieve restorative, quality sleep.",
+      details: [
+        "Comprehensive sleep assessment and evaluation",
+        "Cognitive-Behavioral Therapy for Insomnia (CBT-I)",
+        "Sleep hygiene and routine optimization",
+        "Medication management for sleep disorders",
+        "Evaluation of underlying medical and psychiatric causes",
+        "Sleep apnea screening and referral when needed",
+        "Relaxation techniques and mindfulness for sleep",
+        "Lifestyle and nutritional modifications"
       ]
     }
   ];
@@ -279,7 +282,15 @@ const Services = () => {
 
             <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 sm:gap-5 md:gap-6 lg:gap-8 max-w-6xl mx-auto">
               {services.map((service, index) => (
-                <Card key={index} className="hover:shadow-lg transition-all duration-300 h-full cursor-pointer group" onClick={() => setSelectedService(service)}>
+                <Card key={index} className="overflow-hidden hover:shadow-lg transition-all cursor-pointer group h-full" onClick={() => setSelectedService(service)}>
+                  <div className="relative h-32 sm:h-36 md:h-40 overflow-hidden">
+                    <img
+                      src={service.image}
+                      alt={service.title}
+                      className="w-full h-full object-cover"
+                    />
+                    <div className="absolute inset-0 bg-primary/40" />
+                  </div>
                   <CardContent className="p-4 sm:p-5 md:p-6 lg:p-8 flex flex-col h-full justify-between">
                     <div>
                       <h3 className="font-heading font-semibold text-base sm:text-lg md:text-lg lg:text-xl mb-2 sm:mb-3 text-foreground group-hover:text-primary transition-colors line-clamp-2">{service.title}</h3>
@@ -305,6 +316,11 @@ const Services = () => {
                 <DialogTitle className="text-lg sm:text-xl md:text-2xl break-words">{selectedService.title}</DialogTitle>
               </DialogHeader>
               <div className="space-y-4 sm:space-y-6">
+                <img
+                  src={selectedService.image}
+                  alt={selectedService.title}
+                  className="w-full h-48 sm:h-56 md:h-64 object-cover rounded-lg"
+                />
                 <div>
                   <p className="text-xs sm:text-sm md:text-base text-muted-foreground leading-relaxed">
                     {selectedService.description}

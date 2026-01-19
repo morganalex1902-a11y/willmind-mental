@@ -50,12 +50,12 @@ const Navigation = () => {
     <nav className="fixed top-0 left-0 right-0 bg-background/95 backdrop-blur-sm z-50 border-b border-border flex justify-center">
       <div className="w-full max-w-full 2xl:max-w-[1400px] mx-auto px-4">
         {/* First Layer - Logo Centered */}
-        <div className={`flex items-center justify-center border-b border-border transition-all duration-300 ${isScrolled ? "py-1" : "py-2"}`}>
+        <div className={`flex items-center justify-center border-b border-border transition-all duration-300 ${isScrolled ? "py-1" : "py-3"}`}>
           <Link to="/" className="group">
             <img
               src={logo}
               alt="WillMind Mental Health"
-              className={`transition-all duration-300 group-hover:scale-105 ${isScrolled ? "h-12 w-12" : "h-20 w-20"}`}
+              className={`transition-all duration-300 group-hover:scale-105 object-contain ${isScrolled ? "h-10" : "h-16"}`}
             />
           </Link>
         </div>
