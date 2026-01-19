@@ -282,7 +282,15 @@ const Services = () => {
 
             <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 sm:gap-5 md:gap-6 lg:gap-8 max-w-6xl mx-auto">
               {services.map((service, index) => (
-                <Card key={index} className="hover:shadow-lg transition-all duration-300 h-full cursor-pointer group" onClick={() => setSelectedService(service)}>
+                <Card key={index} className="overflow-hidden hover:shadow-lg transition-all cursor-pointer group h-full" onClick={() => setSelectedService(service)}>
+                  <div className="relative h-32 sm:h-36 md:h-40 overflow-hidden">
+                    <img
+                      src={service.image}
+                      alt={service.title}
+                      className="w-full h-full object-cover"
+                    />
+                    <div className="absolute inset-0 bg-primary/40" />
+                  </div>
                   <CardContent className="p-4 sm:p-5 md:p-6 lg:p-8 flex flex-col h-full justify-between">
                     <div>
                       <h3 className="font-heading font-semibold text-base sm:text-lg md:text-lg lg:text-xl mb-2 sm:mb-3 text-foreground group-hover:text-primary transition-colors line-clamp-2">{service.title}</h3>
