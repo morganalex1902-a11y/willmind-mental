@@ -106,13 +106,13 @@ const Navigation = () => {
                 REQUEST APPOINTMENT
               </Button>
             </Link>
-            <a href="tel:4076937055">
+            <a href="tel:5125991462">
               <Button
                 variant="outline"
                 className="border-primary text-primary hover:bg-primary hover:text-primary-foreground"
               >
                 <Phone className="w-4 h-4 mr-2" />
-                +1 407-693-7055
+                (512) 599-1462
               </Button>
             </a>
           </div>
