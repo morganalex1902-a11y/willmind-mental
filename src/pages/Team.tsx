@@ -69,21 +69,21 @@ const Team = () => {
               <h2 className="text-xl sm:text-2xl font-heading font-bold text-white mb-4 md:mb-6">What You Can Expect From Me</h2>
               <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 md:gap-6">
                 <div>
-                  <h3 className="font-semibold text-white mb-2 sm:mb-3 text-base sm:text-lg">Compassionate Care</h3>
+                  <h3 className="font-semibold text-white mb-2 sm:mb-3 text-base sm:text-lg">Warm & Welcoming Space</h3>
                   <p className="text-white text-xs sm:text-sm leading-relaxed">
-                    We treat each patient with dignity, respect, and deep compassion, recognizing the courage it takes to seek help.
+                    In your first session, you can expect a warm, calm, and welcoming space where you are truly heard. I take time to understand your story and symptoms.
                   </p>
                 </div>
                 <div>
-                  <h3 className="font-semibold text-white mb-2 sm:mb-3 text-base sm:text-lg">Evidence-Based Treatment</h3>
+                  <h3 className="font-semibold text-white mb-2 sm:mb-3 text-base sm:text-lg">Clear Communication</h3>
                   <p className="text-white text-xs sm:text-sm leading-relaxed">
-                    We utilize the latest clinical research and proven therapeutic techniques to ensure the most effective outcomes.
+                    I explain everything clearly, from diagnosis to treatment options, ensuring you feel informed and empowered in your care.
                   </p>
                 </div>
                 <div>
-                  <h3 className="font-semibold text-white mb-2 sm:mb-3 text-base sm:text-lg">Whole-Person Healing</h3>
+                  <h3 className="font-semibold text-white mb-2 sm:mb-3 text-base sm:text-lg">Collaborative Partnership</h3>
                   <p className="text-white text-xs sm:text-sm leading-relaxed">
-                    We address mental, physical, emotional, and spiritual wellness, recognizing that true healing is multifaceted.
+                    We work together as partners in your care. I believe in a supportive, empathetic, and collaborative approach to healing.
                   </p>
                 </div>
               </div>
