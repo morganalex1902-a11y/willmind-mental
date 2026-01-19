@@ -30,7 +30,11 @@ const Index = () => {
     }
   }, [emblaApi]);
 
-  const carouselImages = [carousel1, carousel2, carousel3];
+  const carouselImages = [
+    "https://cdn.builder.io/api/v1/image/assets%2F7f3a261a364e4e158e176b65dc7b168f%2F7443db053bbc44038c187b3ed49f7482?format=webp&width=800",
+    "https://cdn.builder.io/api/v1/image/assets%2F7f3a261a364e4e158e176b65dc7b168f%2F4c1cce8bba1e442c8c6503f460bca66d?format=webp&width=800",
+    "https://cdn.builder.io/api/v1/image/assets%2F7f3a261a364e4e158e176b65dc7b168f%2Fcff1894430c6418c8020c1ad66d77e4b?format=webp&width=800",
+  ];
 
   const services = [
     {
