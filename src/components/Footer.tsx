@@ -13,20 +13,20 @@ const Footer = () => {
               <div className="flex items-start gap-2">
                 <MapPin className="w-4 h-4 text-primary mt-1 flex-shrink-0" />
                 <p className="text-muted-foreground">
-                  580 Lexington Green Lane<br />
-                  Sanford, Florida 32771
+                  Austin, Texas 78759<br />
+                  Online Only
                 </p>
               </div>
               <div className="flex items-center gap-2">
                 <Phone className="w-4 h-4 text-primary flex-shrink-0" />
-                <a href="tel:555-123-4567" className="text-muted-foreground hover:text-primary transition-colors">
-                  (555) 123-4567
+                <a href="tel:5125991462" className="text-muted-foreground hover:text-primary transition-colors">
+                  (512) 599-1462
                 </a>
               </div>
               <div className="flex items-center gap-2">
                 <Mail className="w-4 h-4 text-primary flex-shrink-0" />
-                <a href="mailto:info@sereneminds.com" className="text-muted-foreground hover:text-primary transition-colors">
-                  info@sereneminds.com
+                <a href="mailto:info@willmindmentalhealth.com" className="text-muted-foreground hover:text-primary transition-colors">
+                  info@willmindmentalhealth.com
                 </a>
               </div>
             </div>
