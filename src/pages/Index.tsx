@@ -221,17 +221,14 @@ const Index = () => {
 
         {/* Text Overlay - Centered */}
         <div className="relative z-10 container mx-auto px-4 flex justify-center items-center w-full h-full">
-          <Link to="/team" className="group text-center">
-            <h1 className="text-3xl sm:text-4xl md:text-5xl font-heading font-bold bg-gradient-to-r from-blue-500 via-purple-500 to-pink-500 bg-clip-text text-transparent leading-tight mb-4">
+          <div className="text-center">
+            <h1 className="text-3xl sm:text-4xl md:text-5xl font-heading font-bold bg-gradient-to-r from-orange-400 via-orange-500 to-green-500 bg-clip-text text-transparent leading-tight mb-4 drop-shadow-lg">
               Healing the Mind,<br />Nurturing the Whole You
             </h1>
-            <p className="text-sm sm:text-base md:text-lg text-white leading-relaxed max-w-2xl mx-auto mb-6">
+            <p className="text-sm sm:text-base md:text-lg text-white leading-relaxed max-w-2xl mx-auto mb-6 drop-shadow-md">
               Compassionate, evidence-based mental health care in Texas. Together, we'll create a personalized path to your wellness.
             </p>
-            <span className="inline-block text-sm sm:text-base font-semibold text-white bg-blue-600 hover:bg-blue-700 px-6 py-2 rounded-lg transition-all group-hover:translate-x-1">
-              Meet Our Provider →
-            </span>
-          </Link>
+          </div>
         </div>
       </section>
 
@@ -297,6 +294,11 @@ const Index = () => {
                   A board-certified Psychiatric Mental Health Nurse Practitioner dedicated to helping adults feel emotionally supported, understood, and empowered. Tayo provides compassionate, evidence-based mental health care with a warm and patient-centered approach. With a holistic perspective, Tayo blends medication management with supportive therapy to help you achieve lasting wellness.
                 </p>
               </div>
+              <Link to="/team" className="inline-block">
+                <Button className="w-full bg-gradient-to-r from-orange-400 to-green-500 hover:from-orange-500 hover:to-green-600 text-white font-semibold text-base px-8 py-3 rounded-lg transition-all">
+                  Meet Our Provider →
+                </Button>
+              </Link>
             </div>
           </div>
         </div>
