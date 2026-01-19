@@ -63,7 +63,7 @@ const Footer = () => {
         </div>
 
         <div className="mt-8 pt-8 border-t border-border text-center text-sm text-muted-foreground">
-          <p>&copy; {new Date().getFullYear()} Serene Minds Wellness. All rights reserved.</p>
+          <p>&copy; {new Date().getFullYear()} WillMind Mental Health. All rights reserved.</p>
           <p className="mt-2">
             <Link to="/privacy" className="hover:text-primary transition-colors">Privacy Policy</Link>
             {" · "}
