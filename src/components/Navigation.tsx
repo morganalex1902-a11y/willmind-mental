@@ -54,7 +54,7 @@ const Navigation = () => {
           <Link to="/" className="group">
             <img
               src={logo}
-              alt="Serene Minds Wellness"
+              alt="WillMind Mental Health"
               className={`transition-all duration-300 group-hover:scale-105 ${isScrolled ? "h-12 w-12" : "h-20 w-20"}`}
             />
           </Link>
