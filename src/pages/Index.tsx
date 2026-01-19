@@ -524,7 +524,7 @@ const Index = () => {
 
             <div className="text-center">
               <p className="text-xs sm:text-sm text-muted-foreground mb-4">
-                <strong>Don't see your insurance listed?</strong> We work with most major providers. Contact us directly or check on GrowTherapy to verify coverage.
+                <strong>Don't see your insurance listed?</strong> We work with most major providers. Contact us directly or check on Headway to verify coverage.
               </p>
               <Link to="/insurance" className="inline-block">
                 <Button variant="outline" className="border-primary text-primary hover:bg-primary hover:text-primary-foreground text-sm sm:text-base px-6 sm:px-8 py-2 sm:py-3">
