@@ -110,7 +110,7 @@ All colors MUST be HSL.
   body {
     @apply text-foreground;
     font-family: 'Open Sans', sans-serif;
-    background-image: url('https://images.pexels.com/photos/385821/pexels-photo-385821.jpeg');
+    background-image: url('https://images.pexels.com/photos/1591447/pexels-photo-1591447.jpeg');
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
