@@ -49,14 +49,22 @@ const Navigation = () => {
   return (
     <nav className="fixed top-0 left-0 right-0 bg-background/95 backdrop-blur-sm z-50 border-b border-border flex justify-center">
       <div className="w-full max-w-full 2xl:max-w-[1400px] mx-auto px-4">
-        {/* First Layer - Logo Centered */}
+        {/* First Layer - Logo and Business Name Centered */}
         <div className={`flex items-center justify-center border-b border-border transition-all duration-300 ${isScrolled ? "py-1" : "py-3"}`}>
-          <Link to="/" className="group">
+          <Link to="/" className="group flex items-center gap-3">
             <img
               src={logo}
               alt="WillMind Mental Health"
               className={`transition-all duration-300 group-hover:scale-105 object-contain ${isScrolled ? "h-10" : "h-16"}`}
             />
+            <div className="flex flex-col leading-tight">
+              <span className={`font-decorative font-bold text-primary transition-all duration-300 ${isScrolled ? "text-xl" : "text-3xl"}`}>
+                WillMind
+              </span>
+              <span className={`font-medical font-medium text-foreground transition-all duration-300 ${isScrolled ? "text-xs" : "text-sm"}`}>
+                Mental Health
+              </span>
+            </div>
           </Link>
         </div>
 
