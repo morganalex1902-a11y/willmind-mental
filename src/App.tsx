@@ -12,7 +12,7 @@ import Team from "./pages/Team";
 import Insurance from "./pages/Insurance";
 import Testimonials from "./pages/Testimonials";
 import NotFound from "./pages/NotFound";
-import SnowParticles from "./components/SnowParticles";
+import SnowEffect from "./components/SnowEffect";
 
 const queryClient = new QueryClient();
 
