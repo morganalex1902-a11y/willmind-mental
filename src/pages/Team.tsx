@@ -5,11 +5,11 @@ import { Card, CardContent } from "@/components/ui/card";
 const Team = () => {
   const teamMembers = [
     {
-      name: "Patience Amune, APRN, PMHNP-BC",
-      title: "Founder & Psychiatric Mental Health Nurse Practitioner",
-      bio: "Patience is a board-certified psychiatric mental health nurse practitioner dedicated to whole-person healing. She blends psychiatric expertise, supportive therapy, lifestyle guidance, medication management, and faith-informed care to provide personalized, evidence-based treatment.",
-      specialties: ["Medication Management", "Faith-Informed Care", "Psychiatric Evaluation", "Therapy & Counseling"],
-      image: "https://cdn.builder.io/api/v1/image/assets%2F7f3a261a364e4e158e176b65dc7b168f%2Faa358ae578d64fd18f07f1b1c7dd9cc1?format=webp&width=800"
+      name: "Tayo Maduagwu, MSN, APRN, PMHNP-BC",
+      title: "Psychiatric Mental Health Nurse Practitioner",
+      bio: "Tayo is a board-certified Psychiatric Mental Health Nurse Practitioner dedicated to helping adults feel emotionally supported, understood, and empowered. With expertise in medication management, evidence-based therapy, and a compassionate, patient-centered approach, Tayo provides personalized psychiatric care with a focus on whole-person healing.",
+      specialties: ["Medication Management", "Psychiatric Evaluation", "Individual Therapy", "Evidence-Based Care"],
+      image: "https://cdn.builder.io/api/v1/image/assets%2F8c5319227ec44fd9bdef2d63efcb9acb%2F0854667eb6364130ac305c6e07c7cade?format=webp&width=800"
     },
   ];
 
