@@ -16,6 +16,8 @@ export default {
       fontFamily: {
         sans: ['Open Sans', 'sans-serif'],
         heading: ['Montserrat', 'sans-serif'],
+        decorative: ['Cormorant Garamond', 'serif'],
+        medical: ['Poppins', 'sans-serif'],
       },
       colors: {
         border: "hsl(var(--border))",
