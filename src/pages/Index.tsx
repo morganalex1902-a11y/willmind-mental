@@ -285,8 +285,8 @@ const Index = () => {
             <div className="space-y-4 md:space-y-6">
               <div className="relative w-full flex items-center justify-center rounded-lg overflow-hidden min-h-[300px] sm:min-h-[350px] md:min-h-[400px]">
                 <img
-                  src="https://images.pexels.com/photos/7579112/pexels-photo-7579112.jpeg?auto=compress&cs=tinysrgb&w=800&h=600&fit=crop"
-                  alt="Professional mental health therapy and support"
+                  src="https://cdn.builder.io/api/v1/image/assets%2F306a1616036f465a99fac4fefda23c7d%2F3e986ae5831947da980e5116e948f30f?format=webp&width=800"
+                  alt="Tayo Maduagwu, PMHNP-BC - Mental Health Professional"
                   loading="lazy"
                   className="w-full h-full object-cover rounded-lg"
                 />
