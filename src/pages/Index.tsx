@@ -31,9 +31,9 @@ const Index = () => {
   }, [emblaApi]);
 
   const carouselImages = [
-    "https://images.pexels.com/photos/8312857/pexels-photo-8312857.jpeg?auto=compress&cs=tinysrgb&w=1200&h=800&fit=crop",
+    "https://images.pexels.com/photos/5711021/pexels-photo-5711021.jpeg?auto=compress&cs=tinysrgb&w=1200&h=800&fit=crop",
     "https://images.pexels.com/photos/8560016/pexels-photo-8560016.jpeg?auto=compress&cs=tinysrgb&w=1200&h=800&fit=crop",
-    "https://images.pexels.com/photos/6252138/pexels-photo-6252138.jpeg?auto=compress&cs=tinysrgb&w=1200&h=800&fit=crop",
+    "https://images.pexels.com/photos/6129146/pexels-photo-6129146.jpeg?auto=compress&cs=tinysrgb&w=1200&h=800&fit=crop",
   ];
 
   const services = [
