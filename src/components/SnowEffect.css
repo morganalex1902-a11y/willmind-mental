@@ -8,6 +8,7 @@
   z-index: 50;
   overflow: hidden;
   background: transparent;
+  contain: layout style paint;
 }
 
 .snow-dot {
