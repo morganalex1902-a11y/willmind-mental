@@ -20,6 +20,16 @@ const About = () => {
                 </p>
               </div>
 
+              {/* Hero Image */}
+              <div className="relative w-full h-64 sm:h-80 md:h-96 rounded-lg overflow-hidden shadow-lg mb-8 md:mb-12">
+                <img
+                  src="https://images.pexels.com/photos/7579112/pexels-photo-7579112.jpeg?auto=compress&cs=tinysrgb&w=1200&h=800&fit=crop"
+                  alt="Professional mental health therapy and support"
+                  loading="eager"
+                  className="w-full h-full object-cover"
+                />
+              </div>
+
               {/* Introduction */}
               <div className="space-y-4">
                 <p className="text-xs sm:text-sm md:text-base lg:text-lg">
