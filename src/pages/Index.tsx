@@ -656,6 +656,7 @@ const Index = () => {
                 <img
                   src="https://cdn.builder.io/api/v1/image/assets%2F8b84be17aad14310b285d25f23a3235d%2F824ece0ca16e4f77a707822e94b28dd9?format=webp&width=800"
                   alt="Psychology Today - Find a therapist"
+                  loading="lazy"
                   className="h-12 md:h-14 object-contain mb-3 group-hover:scale-110 transition-transform duration-300"
                 />
                 <span className="text-xs md:text-sm font-semibold text-primary text-center">
