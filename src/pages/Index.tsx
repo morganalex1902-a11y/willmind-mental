@@ -324,6 +324,7 @@ const Index = () => {
                   <img
                     src={service.image}
                     alt={service.title}
+                    loading="lazy"
                     className="w-full h-full object-cover transition-all duration-300 group-hover:opacity-0"
                   />
                   <div className="absolute inset-0 bg-primary/40 group-hover:bg-primary/60 transition-all duration-300" />
