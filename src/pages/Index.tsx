@@ -287,6 +287,7 @@ const Index = () => {
                 <img
                   src="https://cdn.builder.io/api/v1/image/assets%2F7f3a261a364e4e158e176b65dc7b168f%2F04179bbac5f04c9f827ca51eeb45308a?format=webp&width=800"
                   alt="Tayo Maduagwu, PMHNP-BC"
+                  loading="lazy"
                   className="w-full h-full object-cover rounded-lg"
                 />
               </div>
