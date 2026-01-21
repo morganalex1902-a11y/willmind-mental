@@ -34,6 +34,7 @@ const Index = () => {
     "https://images.pexels.com/photos/5711021/pexels-photo-5711021.jpeg?auto=compress&cs=tinysrgb&w=1200&h=800&fit=crop",
     "https://images.pexels.com/photos/8560016/pexels-photo-8560016.jpeg?auto=compress&cs=tinysrgb&w=1200&h=800&fit=crop",
     "https://images.pexels.com/photos/6129146/pexels-photo-6129146.jpeg?auto=compress&cs=tinysrgb&w=1200&h=800&fit=crop",
+    "https://cdn.builder.io/api/v1/image/assets%2F306a1616036f465a99fac4fefda23c7d%2Fe5114bbb2f714f9fa8e48e4b8d3db68a?format=webp&width=800",
   ];
 
   const services = [
