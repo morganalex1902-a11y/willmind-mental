@@ -112,11 +112,12 @@ All colors MUST be HSL.
   body {
     @apply text-foreground;
     font-family: 'Open Sans', sans-serif;
-    background-image: url('https://cdn.builder.io/api/v1/image/assets%2F8b84be17aad14310b285d25f23a3235d%2F1d5326998bdb4065ba45d6bad8a4d5aa?format=webp&width=1920');
-    background-attachment: fixed;
+    background-image: url('https://images.pexels.com/photos/60561/winter-snow-nature-60561.jpeg?auto=compress&cs=tinysrgb&w=1920&h=1080&fit=crop');
+    background-attachment: scroll;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    will-change: auto;
   }
 
   #root {
