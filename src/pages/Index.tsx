@@ -636,6 +636,7 @@ const Index = () => {
                 <img
                   src="https://cdn.builder.io/api/v1/image/assets%2F8b84be17aad14310b285d25f23a3235d%2F4fb55f8110e84fdaaad090027a2fab5e?format=webp&width=800"
                   alt="Headway - Virtual therapy"
+                  loading="lazy"
                   className="h-12 md:h-14 object-contain mb-3 group-hover:scale-110 transition-transform duration-300"
                 />
                 <span className="text-xs md:text-sm font-semibold text-primary text-center">
