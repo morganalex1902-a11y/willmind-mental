@@ -223,11 +223,11 @@ const Index = () => {
 
         {/* Text Overlay - Centered */}
         <div className="relative z-10 container mx-auto px-4 flex justify-center items-center w-full h-full">
-          <div className="text-center">
+          <div className="text-center backdrop-blur-md bg-white/20 border border-white/30 rounded-2xl p-8 sm:p-10 md:p-12 shadow-lg" style={{ backdropFilter: 'blur(10px)' }}>
             <h1 className="text-3xl sm:text-4xl md:text-5xl font-heading font-bold bg-gradient-to-r from-orange-400 via-orange-500 to-green-500 bg-clip-text text-transparent leading-tight mb-4 drop-shadow-lg">
               Healing the Mind,<br />Nurturing the Whole You
             </h1>
-            <p className="text-sm sm:text-base md:text-lg text-white leading-relaxed max-w-2xl mx-auto mb-6 drop-shadow-md">
+            <p className="text-sm sm:text-base md:text-lg text-white leading-relaxed max-w-2xl mx-auto mb-0 drop-shadow-md">
               Compassionate, evidence-based mental health care in Texas. Together, we'll create a personalized path to your wellness.
             </p>
           </div>
