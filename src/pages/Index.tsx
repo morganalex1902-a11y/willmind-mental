@@ -210,9 +210,11 @@ const Index = () => {
           <div className="flex h-full">
             {carouselImages.map((img, index) => (
               <div key={index} className="flex-[0_0_100%] min-w-0 h-full">
-                <div
-                  className="w-full h-full bg-cover bg-center"
-                  style={{ backgroundImage: `url(${img})` }}
+                <img
+                  src={img}
+                  alt={`Wellness carousel image ${index + 1}`}
+                  loading={index === 0 ? "eager" : "lazy"}
+                  className="w-full h-full object-cover"
                 />
               </div>
             ))}
