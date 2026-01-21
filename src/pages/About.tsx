@@ -23,8 +23,8 @@ const About = () => {
               {/* Hero Image */}
               <div className="relative w-full h-64 sm:h-80 md:h-96 rounded-lg overflow-hidden shadow-lg mb-8 md:mb-12">
                 <img
-                  src="https://images.pexels.com/photos/7579112/pexels-photo-7579112.jpeg?auto=compress&cs=tinysrgb&w=1200&h=800&fit=crop"
-                  alt="Professional mental health therapy and support"
+                  src="https://cdn.builder.io/api/v1/image/assets%2F306a1616036f465a99fac4fefda23c7d%2F3e986ae5831947da980e5116e948f30f?format=webp&width=800"
+                  alt="Tayo Maduagwu, PMHNP-BC - Mental Health Professional"
                   loading="eager"
                   className="w-full h-full object-cover"
                 />
