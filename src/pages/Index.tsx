@@ -356,6 +356,7 @@ const Index = () => {
                 <img
                   src={selectedService.image}
                   alt={selectedService.title}
+                  loading="lazy"
                   className="w-full h-48 sm:h-56 md:h-64 object-cover rounded-lg"
                 />
                 <div>
