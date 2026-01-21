@@ -405,6 +405,7 @@ const Index = () => {
               <img
                 src={missionImage}
                 alt="Our Mission"
+                loading="lazy"
                 className="w-full h-full object-cover"
               />
             </div>
